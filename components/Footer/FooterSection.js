@@ -20,30 +20,30 @@ const FooterSection = () => {
                 <div className='col-1'>
                     <p className='font-montserrat font-bold text-black pb-5 text-xl'>Contact Us</p>
                     <ul className='text-gray-900 font-montserrat text-sm space-y-2'>
-                        <li><a href='/' className='hover:text-yellow-900 hover:font-bold'>+2345677895</a></li>
-                        <li><a href='/' className='hover:text-yellow-900 hover:font-bold'>admin@sjsss.com</a></li>
-                        <li><a href='/' className='hover:text-yellow-900 hover:font-bold'>sectary@sjsss.com</a></li>
-                        <li><a href='/' className='hover:text-yellow-900 hover:font-bold'>president@sjsss.com</a></li>
-                        <li><a href='/' className='hover:text-yellow-900 hover:font-bold'>vicepresident@sjsss.com</a></li>
+                        <li><a href='#' className='hover:text-yellow-900 hover:font-bold'>+2345677895</a></li>
+                        <li><a href='#' className='hover:text-yellow-900 hover:font-bold'>admin@sjsss.com</a></li>
+                        <li><a href='#' className='hover:text-yellow-900 hover:font-bold'>sectary@sjsss.com</a></li>
+                        <li><a href='#' className='hover:text-yellow-900 hover:font-bold'>president@sjsss.com</a></li>
+                        <li><a href='#' className='hover:text-yellow-900 hover:font-bold'>vicepresident@sjsss.com</a></li>
                     </ul>
                 </div>
                 <div className='col-1'>
                     <p className='font-montserrat font-bold text-black pb-5 text-xl'>Quick Links</p>
                     <ul className='text-gray-800 font-montserrat text-sm space-y-2'>
-                        <li><a href='/' className='hover:text-yellow-900 hover:font-bold'>Home</a></li>
-                        <li><a href='/' className='hover:text-yellow-900 hover:font-bold'>About Sjsss</a></li>
-                        <li><a href='/' className='hover:text-yellow-900 hover:font-bold'>Gallery</a></li>
-                        <li><a href='/' className='hover:text-yellow-900 hover:font-bold'>Executives</a></li>
-                        <li><a href='/' className='hover:text-yellow-900 hover:font-bold'>Search Member</a></li>
+                        <li><a href='#' className='hover:text-yellow-900 hover:font-bold'>Home</a></li>
+                        <li><a href='#' className='hover:text-yellow-900 hover:font-bold'>About Sjsss</a></li>
+                        <li><a href='#' className='hover:text-yellow-900 hover:font-bold'>Gallery</a></li>
+                        <li><a href='#' className='hover:text-yellow-900 hover:font-bold'>Executives</a></li>
+                        <li><a href='#' className='hover:text-yellow-900 hover:font-bold'>Search Member</a></li>
                     </ul>
                 </div>
                 <div className='col-1'>
                     <p className='font-montserrat font-bold text-black pb-5 text-xl'>Follow Us</p>
                     <ul className='text-gray-800 font-montserrat text-sm space-y-2'>
-                        <li><a href='/' className='hover:text-yellow-900 hover:font-bold'>Facebook</a></li>
-                        <li><a href='/' className='hover:text-yellow-900 hover:font-bold'>Instagram</a></li>
-                        <li><a href='/' className='hover:text-yellow-900 hover:font-bold'>Linkedin</a></li>
-                        <li><a href='/' className='hover:text-yellow-900 hover:font-bold'>Youtube</a></li>
+                        <li><a href='#' className='hover:text-yellow-900 hover:font-bold'>Facebook</a></li>
+                        <li><a href='#' className='hover:text-yellow-900 hover:font-bold'>Instagram</a></li>
+                        <li><a href='#' className='hover:text-yellow-900 hover:font-bold'>Linkedin</a></li>
+                        <li><a href='#' className='hover:text-yellow-900 hover:font-bold'>Youtube</a></li>
                     </ul>
                     <div className='flex gap-2 py-6'>
                         <div className='bg-white p-2'>

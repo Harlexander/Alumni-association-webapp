@@ -81,16 +81,16 @@ const IndexNavbar = () => {
                     return(
                         <NavDropdown 
                             label={
-                            <Navbar.Link href={item.link} key={index} style={{ fontFamily : "Montserrat"}}>
+                            <Link href={"/"} key={index} style={{ fontFamily : "Montserrat"}}>
                                 {item.title}
-                            </Navbar.Link>} 
+                            </Link>} 
                             sublinks={item.sublinks}/>
                     )
                 }else{
                     return(
-                        <Navbar.Link href={item.link} key={index} style={{ fontFamily : "Montserrat"}}>
+                        <Link href={"/"} key={index} style={{ fontFamily : "Montserrat"}}>
                             {item.title}
-                        </Navbar.Link>
+                        </Link>
                     )
                 }
             })
