@@ -1,11 +1,12 @@
 import React from 'react'
 import ResponsibilityContainer from './ResponsibilityContainer'
-
+import { Slide } from 'react-awesome-reveal'
 const ResponsilbiltySection = () => {
   return (
     <div className="flex flex-col space-y-20 items-center justify-center  pt-20 pb-24 bg-[#FED253]">
         <p className="text-4xl font-primary">Our Responsibility</p>
 
+    <Slide direction='up'>
         <div className='md:flex gap-14 px-5 space-y-10 md:space-y-0 md:px-36'>
         <ResponsibilityContainer
         src={"apply.png"}
@@ -23,7 +24,9 @@ const ResponsilbiltySection = () => {
         src={"community.png"}
         title="Grow Our Community"
         content={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,"}/>
-        </div>
+        </div>      
+    </Slide>
+
         
     </div>
   )

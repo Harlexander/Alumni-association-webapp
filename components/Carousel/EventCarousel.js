@@ -5,7 +5,7 @@ import { OutlineButton, SolidButton } from '../Button/Button'
 const EventCarousel = () => {
   return (
     <div className="w-full md:px-32">
-    <Carousel loop autoPlay>
+    <Carousel loop autoPlay={1000}>
         <Carousel.Item>
         <div
         className='md:grid grid-cols-2 gap-10 h- px-4'>
@@ -74,7 +74,7 @@ const EventCarousel = () => {
             <div className="col-1 md:h-full md:w-full relative">
                     <div className='bg-yellow-200 mt-3 md:mt-8 hidden md:block -z-10 w-11/12 h-full absolute'/>
                     <div className='bg-transparent h-full md:ml-8  md:pb-8'>
-                        <img className="h-full" src="event1.png"/>  
+                        <img src="event1.png"/>  
                     </div>
                 
             </div>
@@ -136,7 +136,7 @@ const EventCarousel = () => {
             <div className="col-1 md:h-full md:w-full relative">
                     <div className='bg-yellow-200 mt-3 md:mt-8 hidden md:block -z-10 w-11/12 h-full absolute'/>
                     <div className='bg-transparent h-full md:ml-8  md:pb-8'>
-                        <img className="h-full" src="event1.png"/>  
+                        <img src="event1.png"/>  
                     </div>
                 
             </div>
