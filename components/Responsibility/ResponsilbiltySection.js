@@ -6,7 +6,7 @@ const ResponsilbiltySection = () => {
     <div className="flex flex-col space-y-20 items-center justify-center  pt-20 pb-24 bg-[#FED253]">
         <p className="text-4xl font-primary">Our Responsibility</p>
 
-        <div className='flex gap-14 px-36'>
+        <div className='md:flex gap-14 px-5 space-y-10 md:space-y-0 md:px-36'>
         <ResponsibilityContainer
         src={"apply.png"}
         title="Scholarship and Empowerment"

@@ -2,7 +2,8 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
-    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
+    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
+    './node_modules/tw-elements/dist/js/**/*.js'
   ],
   theme: {
     extend: {},
@@ -11,11 +12,12 @@ module.exports = {
     },
     fontFamily : {
       'nunito' : ['Nunito', 'sans-serif'],
-      'inter' : ['Inter', 'sans-serif'],
+      'montserrat' : ['Montserrat', 'sans-serif'],
       'primary' : ['DM Serif Display', 'sans-serif']
     }
   },
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin') ,
+    require('tw-elements/dist/plugin')
   ] 
 }

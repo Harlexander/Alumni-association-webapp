@@ -8,7 +8,7 @@ const SetRepsSection = () => {
     
         <SolidButton
         title={'Meet Your Set Representative'}
-        additionalClass="px-8 py-3 text-black font-primary"/>
+        additionalClass="px-8 py-3 text-black shadow-xl font-primary"/>
     </div>
   )
 }

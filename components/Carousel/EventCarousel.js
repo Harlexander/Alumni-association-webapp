@@ -1,23 +1,23 @@
-import { Carousel } from 'flowbite-react'
+import Carousel from 'better-react-carousel'
 import React from 'react'
 import { OutlineButton, SolidButton } from '../Button/Button'
 
 const EventCarousel = () => {
   return (
-    <div className="w-full h-[500px] px-32">
-    <Carousel
-    indicators={false}>
+    <div className="w-full md:px-32">
+    <Carousel loop autoPlay>
+        <Carousel.Item>
         <div
-        className='grid grid-cols-2 gap-10 h-full'>
-            <div className="col-1 h-full w-full relative">
-                    <div className='bg-yellow-200 mt-10 -z-10 w-11/12 h-full absolute'/>
-                    <div className='bg-transparent h-full ml-10  pb-10'>
-                        <img className="h-full" src="home.jpg"/>  
+        className='md:grid grid-cols-2 gap-10 h- px-4'>
+            <div className="col-1 md:h-full md:w-full relative">
+                    <div className='bg-yellow-200 mt-3 md:mt-8 hidden md:block -z-10 w-11/12 h-full absolute'/>
+                    <div className='bg-transparent h-full md:ml-8  md:pb-8'>
+                        <img className="h-full" src="event1.png"/>  
                     </div>
                 
             </div>
 
-            <div className='col-1 space-y-5 py-10 px-10'>
+            <div className='col-1 space-y-5 pt-10 md:py-10 md:px-10'>
                 <p className='font-primary text-4xl'>
                     Annual General Conference
                 </p>
@@ -28,28 +28,28 @@ const EventCarousel = () => {
 
                 <div className="flex justify-between">
                     <div>
-                        <div className='bg-yellow-300 p-3'>
-                            <p className='font-primary text-3xl'>50</p>
+                        <div className='bg-yellow-300 p-3 shadow-sm'>
+                            <p className='font-primary text-2xl md:text-3xl'>50</p>
                         </div>
-                        <p className='font-primary text-3xl'>Days</p>
+                        <p className='font-primary text-md md:text-xl'>Days</p>
                     </div>
                     <div>
-                        <div className='bg-yellow-300 p-3'>
-                            <p className='font-primary text-3xl'>08</p>
+                        <div className='bg-yellow-300 p-3 shadow-sm'>
+                            <p className='font-primary text-2xl md:text-3xl'>08</p>
                         </div>
-                        <p className='font-primary text-3xl'>Hours</p>
+                        <p className='font-primary text-md md:text-xl'>Hours</p>
                     </div>
                     <div>
-                        <div className='bg-yellow-300 p-3'>
-                            <p className='font-primary text-3xl'>55</p>
+                        <div className='bg-yellow-300 p-3 shadow-sm'>
+                            <p className='font-primary text-2xl md:text-3xl'>55</p>
                         </div>
-                        <p className='font-primary text-3xl'>Mins</p>
+                        <p className='font-primary text-md md:text-xl'>Mins</p>
                     </div>
                     <div>
-                        <div className='bg-yellow-300 p-3'>
-                            <p className='font-primary text-3xl'>10</p>
+                        <div className='bg-yellow-300 p-3 shadow-sm'>
+                            <p className='font-primary text-2xl md:text-3xl'>10</p>
                         </div>
-                        <p className='font-primary text-3xl'>Secs</p>
+                        <p className='font-primary text-md md:text-xl'>Secs</p>
                     </div>
                 </div>
 
@@ -57,7 +57,7 @@ const EventCarousel = () => {
 
                 <div className='flex gap-3'>
                     <SolidButton
-                    title={"Register To Join"}
+                    title={"Register"}
                     additionalClass={"font-primary w-full py-2"}
                     />
                     <OutlineButton
@@ -67,17 +67,19 @@ const EventCarousel = () => {
                 </div>
             </div>
         </div>
+        </Carousel.Item>
+        <Carousel.Item>
         <div
-        className='grid grid-cols-2 gap-10 h-full'>
-            <div className="col-1 h-full w-full relative">
-                    <div className='bg-yellow-200 mt-10 -z-10 w-11/12 h-full absolute'/>
-                    <div className='bg-transparent h-full ml-10  pb-10'>
-                        <img className="h-full" src="home.jpg"/>  
+        className='md:grid grid-cols-2 gap-10 h- px-4'>
+            <div className="col-1 md:h-full md:w-full relative">
+                    <div className='bg-yellow-200 mt-3 md:mt-8 hidden md:block -z-10 w-11/12 h-full absolute'/>
+                    <div className='bg-transparent h-full md:ml-8  md:pb-8'>
+                        <img className="h-full" src="event1.png"/>  
                     </div>
                 
             </div>
 
-            <div className='col-1 space-y-5 py-10 px-10'>
+            <div className='col-1 space-y-5 pt-10 md:py-10 md:px-10'>
                 <p className='font-primary text-4xl'>
                     Annual General Conference
                 </p>
@@ -88,28 +90,28 @@ const EventCarousel = () => {
 
                 <div className="flex justify-between">
                     <div>
-                        <div className='bg-yellow-300 p-3'>
-                            <p className='font-primary text-3xl'>50</p>
+                        <div className='bg-yellow-300 p-3 shadow-sm'>
+                            <p className='font-primary text-2xl md:text-3xl'>50</p>
                         </div>
-                        <p className='font-primary text-3xl'>Days</p>
+                        <p className='font-primary text-md md:text-xl'>Days</p>
                     </div>
                     <div>
-                        <div className='bg-yellow-300 p-3'>
-                            <p className='font-primary text-3xl'>08</p>
+                        <div className='bg-yellow-300 p-3 shadow-sm'>
+                            <p className='font-primary text-2xl md:text-3xl'>08</p>
                         </div>
-                        <p className='font-primary text-3xl'>Hours</p>
+                        <p className='font-primary text-md md:text-xl'>Hours</p>
                     </div>
                     <div>
-                        <div className='bg-yellow-300 p-3'>
-                            <p className='font-primary text-3xl'>55</p>
+                        <div className='bg-yellow-300 p-3 shadow-sm'>
+                            <p className='font-primary text-2xl md:text-3xl'>55</p>
                         </div>
-                        <p className='font-primary text-3xl'>Mins</p>
+                        <p className='font-primary text-md md:text-xl'>Mins</p>
                     </div>
                     <div>
-                        <div className='bg-yellow-300 p-3'>
-                            <p className='font-primary text-3xl'>10</p>
+                        <div className='bg-yellow-300 p-3 shadow-sm'>
+                            <p className='font-primary text-2xl md:text-3xl'>10</p>
                         </div>
-                        <p className='font-primary text-3xl'>Secs</p>
+                        <p className='font-primary text-md md:text-xl'>Secs</p>
                     </div>
                 </div>
 
@@ -117,27 +119,29 @@ const EventCarousel = () => {
 
                 <div className='flex gap-3'>
                     <SolidButton
-                    title={"Register To Join"}
-                    additionalClass={"font-primary w-full py-2"}
+                    title={"Register"}
+                    additionalClass={"font-primary shadow-xl w-full py-2"}
                     />
                     <OutlineButton
                     title={"Join Event"}
-                    additionalClass={"font-primary w-full py-2"}
+                    additionalClass={"font-primary shadow-xl w-full py-2"}
                     />
                 </div>
             </div>
         </div>
+        </Carousel.Item>
+        <Carousel.Item>
         <div
-        className='grid grid-cols-2 gap-10 h-full'>
-            <div className="col-1 h-full w-full relative">
-                    <div className='bg-yellow-200 mt-10 -z-10 w-11/12 h-full absolute'/>
-                    <div className='bg-transparent h-full ml-10  pb-10'>
-                        <img className="h-full" src="home.jpg"/>  
+        className='md:grid grid-cols-2 gap-10 h- px-4'>
+            <div className="col-1 md:h-full md:w-full relative">
+                    <div className='bg-yellow-200 mt-3 md:mt-8 hidden md:block -z-10 w-11/12 h-full absolute'/>
+                    <div className='bg-transparent h-full md:ml-8  md:pb-8'>
+                        <img className="h-full" src="event1.png"/>  
                     </div>
                 
             </div>
 
-            <div className='col-1 space-y-5 py-10 px-10'>
+            <div className='col-1 space-y-5 pt-10 md:py-10 md:px-10'>
                 <p className='font-primary text-4xl'>
                     Annual General Conference
                 </p>
@@ -148,28 +152,28 @@ const EventCarousel = () => {
 
                 <div className="flex justify-between">
                     <div>
-                        <div className='bg-yellow-300 p-3'>
-                            <p className='font-primary text-3xl'>50</p>
+                        <div className='bg-yellow-300 p-3 shadow-sm'>
+                            <p className='font-primary text-2xl md:text-3xl'>50</p>
                         </div>
-                        <p className='font-primary text-3xl'>Days</p>
+                        <p className='font-primary text-md md:text-xl'>Days</p>
                     </div>
                     <div>
-                        <div className='bg-yellow-300 p-3'>
-                            <p className='font-primary text-3xl'>08</p>
+                        <div className='bg-yellow-300 p-3 shadow-sm'>
+                            <p className='font-primary text-2xl md:text-3xl'>08</p>
                         </div>
-                        <p className='font-primary text-3xl'>Hours</p>
+                        <p className='font-primary text-md md:text-xl'>Hours</p>
                     </div>
                     <div>
-                        <div className='bg-yellow-300 p-3'>
-                            <p className='font-primary text-3xl'>55</p>
+                        <div className='bg-yellow-300 p-3 shadow-sm'>
+                            <p className='font-primary text-2xl md:text-3xl'>55</p>
                         </div>
-                        <p className='font-primary text-3xl'>Mins</p>
+                        <p className='font-primary text-md md:text-xl'>Mins</p>
                     </div>
                     <div>
-                        <div className='bg-yellow-300 p-3'>
-                            <p className='font-primary text-3xl'>10</p>
+                        <div className='bg-yellow-300 p-3 shadow-sm'>
+                            <p className='font-primary text-2xl md:text-3xl'>10</p>
                         </div>
-                        <p className='font-primary text-3xl'>Secs</p>
+                        <p className='font-primary text-md md:text-xl'>Secs</p>
                     </div>
                 </div>
 
@@ -177,7 +181,7 @@ const EventCarousel = () => {
 
                 <div className='flex gap-3'>
                     <SolidButton
-                    title={"Register To Join"}
+                    title={"Register"}
                     additionalClass={"font-primary w-full py-2"}
                     />
                     <OutlineButton
@@ -187,6 +191,7 @@ const EventCarousel = () => {
                 </div>
             </div>
         </div>
+        </Carousel.Item>
      </Carousel>
 </div>
   )
