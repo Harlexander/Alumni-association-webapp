@@ -80,8 +80,9 @@ const IndexNavbar = () => {
             if(item.title === "EXCOS" || item.title === "EVENTS"){
                     return(
                         <NavDropdown 
+                        key={index}
                             label={
-                            <Navbar.Link href={item.link} key={index} style={{ fontFamily : "Montserrat"}}>
+                            <Navbar.Link href={item.link}  style={{ fontFamily : "Montserrat"}}>
                                 {item.title}
                             </Navbar.Link>} 
                             sublinks={item.sublinks}/>
