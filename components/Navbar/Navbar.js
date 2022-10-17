@@ -7,7 +7,7 @@ const IndexNavbar = () => {
     const routes = [
         {
             title : "HOME",
-            link  : "/"
+            link  : "#"
         },
         {
             title : "ABOUT US",
@@ -80,18 +80,18 @@ const IndexNavbar = () => {
             if(item.title === "EXCOS" || item.title === "EVENTS"){
                     return(
                         <NavDropdown 
-                        key={index}
                             label={
-                            <Link href={"/"} key={index} style={{ fontFamily : "Montserrat"}}>
+                            <Navbar.Link href={item.link} key={index} style={{ fontFamily : "Montserrat"}}>
                                 {item.title}
-                            </Link>} 
+                            </Navbar.Link>} 
                             sublinks={item.sublinks}/>
                     )
                 }else{
                     return(
-                        <Link href={"/"} key={index} style={{ fontFamily : "Montserrat"}}>
-                            {item.title}
-                        </Link>
+                        
+                        <Navbar.Link href={item.link} key={index} style={{ fontFamily : "Montserrat"}}>
+                              {item.title}
+                        </Navbar.Link>
                     )
                 }
             })
