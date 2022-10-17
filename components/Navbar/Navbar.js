@@ -60,12 +60,12 @@ const IndexNavbar = () => {
         <Navbar.Brand href="https://flowbite.com/">
             <img
             src="/logo.jfif"
-            className="mr-3 h-6 sm:h-9"
+            className="mr-3 h-12 sm:h-13"
             alt="Flowbite Logo"
             />
             <img
             src="/logo-1.jfif"
-            className="mr-3 h-6 sm:h-9"
+            className="mr-3 h-12 sm:h-13"
             alt="Flowbite Logo"
             />
     </Navbar.Brand>

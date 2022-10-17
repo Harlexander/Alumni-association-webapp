@@ -5,14 +5,13 @@ import { OutlineButton, SolidButton } from '../Button/Button'
 const EventCarousel = () => {
   return (
     <div className="w-full md:px-32">
-    <Carousel loop autoPlay={1000}>
+    <Carousel cols={1} rows={1} loop autoplay={true} autoPlay={100}>
         <Carousel.Item>
         <div
         className='md:grid grid-cols-2 gap-10 h- px-4'>
             <div className="col-1 md:h-full md:w-full relative">
-                    <div className='bg-yellow-200 mt-3 md:mt-8 hidden md:block -z-10 w-11/12 h-full absolute'/>
-                    <div className='bg-transparent h-full md:ml-8  md:pb-8'>
-                        <img className="" src="event1.png"/>  
+                    <div className='h-full'>
+                        <img className="shadow-lg"  src="event1.png"/>  
                     </div>
                 
             </div>
@@ -72,9 +71,8 @@ const EventCarousel = () => {
         <div
         className='md:grid grid-cols-2 gap-10 h- px-4'>
             <div className="col-1 md:h-full md:w-full relative">
-                    <div className='bg-yellow-200 mt-3 md:mt-8 hidden md:block -z-10 w-11/12 h-full absolute'/>
-                    <div className='bg-transparent h-full md:ml-8  md:pb-8'>
-                        <img src="event1.png"/>  
+                    <div className='h-full'>
+                        <img className="shadow-lg" src="event1.png"/>  
                     </div>
                 
             </div>
@@ -134,9 +132,8 @@ const EventCarousel = () => {
         <div
         className='md:grid grid-cols-2 gap-10 h- px-4'>
             <div className="col-1 md:h-full md:w-full relative">
-                    <div className='bg-yellow-200 mt-3 md:mt-8 hidden md:block -z-10 w-11/12 h-full absolute'/>
-                    <div className='bg-transparent h-full md:ml-8  md:pb-8'>
-                        <img src="event1.png"/>  
+                    <div className='h-full'>
+                        <img className="shadow-lg" src="event1.png"/>  
                     </div>
                 
             </div>
