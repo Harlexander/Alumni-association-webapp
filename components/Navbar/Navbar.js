@@ -33,15 +33,15 @@ const IndexNavbar = () => {
             sublinks : [
             { 
                 title : "National Executives",
-                link : "/"
+                link : "/excos/national-executives"
             },
             {
                 title : "Board of Trustees",
-                link : "/"
+                link : "/excos/board-of-trustees"
             },
             {
                 title : "Set Representatives",
-                link : "/"
+                link : "/excos/set-representatives"
             },
         ]
         },
@@ -54,10 +54,10 @@ const IndexNavbar = () => {
     <Navbar
     fluid={true}
     
-    style={{ position : "fixed", zIndex : "1", width : "100%", background : "white"}}
+    style={{ zIndex : "1", width : "100%", background : "white"}}
     rounded={true}
     >
-        <Navbar.Brand href="https://flowbite.com/">
+        <Navbar.Brand href="/">
             <img
             src="/logo.jfif"
             className="mr-3 h-12 sm:h-13"
@@ -71,6 +71,7 @@ const IndexNavbar = () => {
     </Navbar.Brand>
     <div className="flex md:order-2 my-3">
         <OutlineButton 
+        href='/login'
         title={"Sign In"}/>
         <Navbar.Toggle />
     </div>

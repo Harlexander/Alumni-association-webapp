@@ -1,4 +1,5 @@
 import { Carousel } from 'flowbite-react'
+import Link from 'next/link'
 import React from 'react'
 import { Fade } from 'react-awesome-reveal'
 import { OutlineButton, SolidButton } from '../Button/Button'
@@ -18,13 +19,15 @@ const HeroCarousel = () => {
             <div className='flex flex-col md:flex-row gap-5 z-20s'>
                
                 <SolidButton
-                title={"New Member Registration"}
-                additionalClass="md:py-3 md:text-lg font-nunito py-3 mx-5 md:mx-0"/>
-                
+                    href='/register'
+                    title={"New Member Registration"}
+                    additionalClass="md:py-3 md:text-lg font-nunito py-3 mx-5 md:mx-0"/>             
+
                 <OutlineButton
-                title={"Search Member"}
-                additionalClass="md:py-3 md:text-lg font-nunito py-3 mx-5 md:mx-0"/>
-           
+                    href='/members'
+                    title={"Search Member"}
+                    additionalClass="md:py-3 md:text-lg font-nunito py-3 mx-5 md:mx-0"/>
+                
             </div> 
             </Fade>
         </div> 
