@@ -7,7 +7,7 @@ const IndexNavbar = () => {
     const routes = [
         {
             title : "HOME",
-            link  : "#"
+            link  : "/"
         },
         {
             title : "ABOUT US",

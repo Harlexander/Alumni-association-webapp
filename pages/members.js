@@ -101,20 +101,20 @@ const Index = () => {
         title={"Members Directory"}
         />
         <div className="mt-16">
-            <p className="text-center text-2xl md:text-3xl font-[montserrat]">Now we have <span className="text-pry font-bold">1292</span> members</p>
+            <p className="text-center  pb-4 md:pb-0 text-2xl md:text-3xl font-[montserrat]">Now we have <span className="text-pry font-bold">1292</span> members</p>
         </div>
 
-        <div className="md:flex justify-center gap-4 space-y-6 md:space-y-0">
+        <div className="md:flex justify-center gap-4 space-y-2 md:space-y-6 md:space-y-0">
             <div className="text-center font-nunito md:py-8">
-                <input className="p-4 border-0 w-[25rem]" 
+                <input className="p-4 border-0 md:w-[25rem]" 
                 placeholder="Search By Name" 
                 type={'text'}/>
                 <button 
                 className="p-4 bg-pry text-[white]"
                 >Search</button>
             </div>
-            <div className="text-center text-[white] space-x-4 font-nunito md:py-8">
-                <select placeholder={'filter by set'} className="p-4 px-8 border-0 bg-pry">
+            <div className="text-center hidden md:block text-[white] space-x-4 font-nunito md:py-8">
+                <select placeholder={'filter by set'} className="md:p-4 px-8 border-0 bg-pry">
                     <option className="text-[white]" disabled selected>Filter By Set</option>
                     <option className="text-[white]">All Set</option>
                     {
@@ -123,7 +123,7 @@ const Index = () => {
                         ))
                     }
                 </select>
-                <select placeholder={'filter by profession'} className="p-4 px-8 border-0 bg-pry">
+                <select placeholder={'filter by profession'} className="md:p-4 px-8 border-0 bg-pry">
                     <option className="text-[white]" disabled selected>Filter By Profession</option>
                     <option className="text-[white]">All Profession</option>
                     {
@@ -139,19 +139,19 @@ const Index = () => {
     <table className="w-full text-lg text-center text-left ">
         <thead className="bg-pry text-[white]">
             <tr>
-                <th scope="col" className="py-6 px-6 border-r">
+                <th scope="col" className="py-4 md:py-6 px-6 border-r">
                    Member Name
                 </th>
-                <th scope="col" className="py-6 px-6 border-r">
+                <th scope="col" className="py-4 md:py-6 px-6 border-r">
                     Set
                 </th>
-                <th scope="col" className="py-6 px-6 border-r">
+                <th scope="col" className="py-4 md:py-6 px-6 border-r">
                     Mobile
                 </th>
-                <th scope="col" className="py-6 px-6 border-r">
+                <th scope="col" className="py-4 md:py-6 px-6 border-r">
                     Profession
                 </th>
-                <th scope="col" className="py-6 px-6 ">
+                <th scope="col" className="py-4 md:py-6 px-6 ">
                     City
                 </th>
             </tr>
@@ -160,21 +160,21 @@ const Index = () => {
             {
                 members.map(({city, name, mobile, profession, set}, index) => (
                     <tr key={index} className="bg-white py- border-b dark:bg-gray-800 dark:border-gray-700 text-lg">
-                    <th scope="row" className="py-6 px-6 font-medium bg-[#c5b2dd] whitespace-nowrap dark:text-white">
+                    <th scope="row" className="py-1 md:py-6 px-6 font-medium bg-[#c5b2dd] whitespace-nowrap dark:text-white">
                         {name}
                     </th>
-                    <td className="py-6 px-6">
+                    <td className="py-1 md:py-6 px-6">
                        {set}
                     </td>
-                    <td className="py-6 bg-[#c5b2dd] px-6">
+                    <td className="py-1 md:py-6 bg-[#c5b2dd] px-6">
                       <a href={`tel:${mobile}`} className="underline">
                          {mobile}
                       </a>
                     </td>
-                    <td className="py-6 px-6">
+                    <td className="py-1 md:py-6 px-6">
                         {profession}
                     </td>
-                    <td className="py-6 bg-[#c5b2dd] px-6">
+                    <td className="py-1 md:py-6 bg-[#c5b2dd] px-6">
                         {city}
                     </td>
                 </tr>
