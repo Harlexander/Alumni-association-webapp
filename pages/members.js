@@ -119,7 +119,7 @@ const Index = () => {
                     <option className="text-[white]">All Set</option>
                     {
                         set.map(set => (
-                            <option className="text-[white]">{set}</option>
+                            <option key={set} className="text-[white]">{set}</option>
                         ))
                     }
                 </select>
@@ -128,7 +128,7 @@ const Index = () => {
                     <option className="text-[white]">All Profession</option>
                     {
                         profession.map(set => (
-                            <option className="text-[white]">{set}</option>
+                            <option key={set} className="text-[white]">{set}</option>
                         ))
                     }
                 </select>
