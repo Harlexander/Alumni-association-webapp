@@ -41,7 +41,7 @@ const Index = () => {
 
             <ExecutiveContainer
             name={'Engr. Opeoluwa Orekoya'}
-            img="https://cdn-icons-png.flaticon.com/512/149/149071.png"
+            img="../vice president america.png"
             bio={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
             mail={"vicepresident.america@sjssaa.com"}
             position="Vice President America"/>
@@ -50,7 +50,7 @@ const Index = () => {
 
             <ExecutiveContainer
             name={'Israel Olusegun Alika'}
-            img="https://cdn-icons-png.flaticon.com/512/149/149071.png"
+            img="../general secretary.png"
             bio={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
             mail={"generalsecretary@sjssaa.com"}
             position="General Secretary"/>
@@ -59,7 +59,7 @@ const Index = () => {
 
             <ExecutiveContainer
             name={'Dr. Emmanuel Ehiwe'}
-            img="https://cdn-icons-png.flaticon.com/512/149/149071.png"
+            img="../asst.sec.europe & asia.png"
             bio={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
             mail={"asst.sect.europe.asia@sjssaa.com"}
             position="Asst. Sect Europe & asia"/>
@@ -67,7 +67,7 @@ const Index = () => {
 
             <ExecutiveContainer
             name={'Akeem Ajayi'}
-            img="https://cdn-icons-png.flaticon.com/512/149/149071.png"
+            img="../financial secretary.png"
             bio={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
             mail={"financialsecretary@sjssaa.com"}
             position="Financial Secretary"/>
@@ -75,7 +75,7 @@ const Index = () => {
 
             <ExecutiveContainer
             name={'Edward Dunkwu'}
-            img="https://cdn-icons-png.flaticon.com/512/149/149071.png"
+            img="../treasurer.png"
             bio={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
             mail={"treasurer@sjssaa.com"}
             position="Treasurer"/>
