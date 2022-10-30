@@ -11,7 +11,18 @@ const IndexNavbar = () => {
         },
         {
             title : "ABOUT US",
-            link  : "/about"
+            sublinks : [{ 
+                title : "About SJSSAA",
+                link : "/about"
+            },
+            { 
+                title : "Our Mission and Vision",
+                link : "/mission-vision"
+            },
+            {
+                title : "Strategic Plan",
+                link : "/strategic-plan"
+            }]
         },
         {
             title : "GALLERY",
@@ -20,11 +31,11 @@ const IndexNavbar = () => {
         {
             title : "EVENTS",
             sublinks : [{ 
-                title : "Annual General Conference",
+                title : "2022 Annual General Conference",
                 link : "/"
             },
             {
-                title : "2022 General Reunion",
+                title : "Upcoming Set Events",
                 link : "/"
             }]
         },
@@ -78,7 +89,7 @@ const IndexNavbar = () => {
     <Navbar.Collapse>
         {
             routes.map((item, index) => {
-            if(item.title === "EXCOS" || item.title === "EVENTS"){
+            if(item.title === "EXCOS" || item.title === "EVENTS" || item.title === "ABOUT US"){
                     return(
                         <NavDropdown 
                         key={index}
@@ -90,7 +101,6 @@ const IndexNavbar = () => {
                     )
                 }else{
                     return(
-                        
                         <Navbar.Link href={item.link} key={index} style={{ fontFamily : "Montserrat"}}>
                               {item.title}
                         </Navbar.Link>

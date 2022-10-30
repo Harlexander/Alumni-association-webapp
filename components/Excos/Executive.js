@@ -1,5 +1,8 @@
+import { faUserTie } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { SolidButton } from '../Button/Button'
+import ExecutiveContainer from './ExecutiveContainer'
 
 const Executive = () => {
   return (
@@ -9,58 +12,34 @@ const Executive = () => {
             </div>
 
         <div className='w-full md:px-32 space-y-12'>
-            <div className='md:grid grid-cols-12 gap-4 space-y-5 md:space-y-0'>
-                <div className='col-span-3'>
-                    <img src='president.png' className='h-60 w-60 mx-auto rounded-lg md:rounded-full'/>
-                </div>
-                <div className='md:text-left text-center col-span-9 flex-col flex space-y-2 justify-center'>
-                    <p className='font-montserrat md:font-bold text-2xl'>
-                        President
-                    </p>
-                    <p>Adeshina Adegboyega  is a Geodetic Engineer by training and is currently a lecturer in Land Surveying/Geomatics at the Accra Technical University.
-                    He is very passionate about the intellectual and moral development of students and spends a lot of time outside the classroom mentoring students on how to develop their communication and project management skills.
-                    His hobbies include watching soccer and documentaries on world history. 
-                    </p>
-                    <a href='#' className='text-blue-500 underline'>More...</a>
-                </div>
-            </div>
-            <div className='md:grid grid-cols-12 gap-4 space-y-5 md:space-y-0'>
-                <div className='col-span-3'>
-                    <img src='vp-nigeria.png' className='h-60 w-60 mx-auto rounded-lg md:rounded-full'/>
-                </div>
-                <div className='md:text-left text-center col-span-9 flex-col flex space-y-2 justify-center'>
-                    <p className='font-montserrat md:font-bold text-2xl'>
-                        Vice President Nigeria
-                    </p>
-                    <p>Adeshina Adegboyega  is a Geodetic Engineer by training and is currently a lecturer in Land Surveying/Geomatics at the Accra Technical University.
-                    He is very passionate about the intellectual and moral development of students and spends a lot of time outside the classroom mentoring students on how to develop their communication and project management skills.
-                    His hobbies include watching soccer and documentaries on world history. 
-                    </p>
-                    <a href='#' className='text-blue-500 underline'>More...</a>
-                </div>
-            </div>
-            <div className='md:grid grid-cols-12 gap-4 space-y-5 md:space-y-0'>
-                <div className='col-span-3'>
-                    <img src='vp.png' className='h-60 w-60 mx-auto rounded-lg md:rounded-full'/>
-                </div>
-                <div className='md:text-left text-center col-span-9 flex-col flex space-y-2 justify-center'>
-                    <p className='font-montserrat md:font-bold text-2xl'>
-                        Vice President Europe
-                    </p>
-                    <p>Adeshina Adegboyega  is a Geodetic Engineer by training and is currently a lecturer in Land Surveying/Geomatics at the Accra Technical University.
-                    He is very passionate about the intellectual and moral development of students and spends a lot of time outside the classroom mentoring students on how to develop their communication and project management skills.
-                    His hobbies include watching soccer and documentaries on world history. 
-                    </p>
-                    <a href='#' className='text-blue-500 underline'>More...</a>
-                </div>
-            </div>
+            <ExecutiveContainer
+            name={'Adeshina Adegboyega'}
+            img="president.png"
+            bio={"Adeshina Adegboyega Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
+            mail={"President@sjssaa.com"}
+            position="President"/>
+            <hr/>
+            <ExecutiveContainer
+            name={'Lanre Are'}
+            img="vp-nigeria.png"
+            bio={"Lanre Are  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
+            mail={"vicepresident.niegria@sjssaa.com"}
+            position="Vice President Nigeria"/>
+            <hr/>
+            <ExecutiveContainer
+            name={'Jacob Babatunde Ajayi'}
+            img="vp.png"
+            bio={"Jocob Ajayi Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
+            mail={"vicepresident.europe@sjssaa.com"}
+            position="Vice President Europe and Asia"/>
             
         </div>
 
-        <div className='flex justify-center py-5'>
+        <div className='flex justify-center py-10'>
             <SolidButton
+            href='/excos/national-executives'
             title={"Meet All Excos"}
-            additionalClass="px-6 md:py-4 md:text-2xl shadow-xl text-black font-primary"/>
+            additionalClass="px-6 md:text-2xl shadow-xl text-black font-primary"/>
         </div>
     </div>
   )
