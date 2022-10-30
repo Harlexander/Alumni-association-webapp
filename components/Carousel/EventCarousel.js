@@ -24,7 +24,7 @@ const EventCarousel = () => {
                 </p>
 
                 <p className='font-nunito'>
-                This year's AGM is very important beenuse it is the very first time that members of our newly registered association, drawn from about 15 active sets would be coming together physically to fraternize and rub minds on ways ofmoving our great alumni forward. <br/><br/>
+                This year&apos;s AGM is very important beenuse it is the very first time that members of our newly registered association, drawn from about 15 active sets would be coming together physically to fraternize and rub minds on ways ofmoving our great alumni forward. <br/><br/>
                 The December event, aside from the formal meeting, promises to create a conducive atmosphere for all members to also dine and unwind, while also cementing the bond of camaraderie amongst members. In addition, at the AGM we shall examine as a body the various projects the National body intends to execute next year, 2023, and to get the buy-in of all.                </p>
 
                 <div className="flex justify-between">

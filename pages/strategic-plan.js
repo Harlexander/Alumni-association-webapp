@@ -185,7 +185,7 @@ const Index = () => {
                         <tbody>
                           <tr>
                             <td rowSpan={2} className='border border-white md:border-2 border-black p-4'>
-                              <span className='font-bold'>Objective A :</span>  To give constant and updated information on the status of the school, it's infrastructure, and students
+                              <span className='font-bold'>Objective A :</span>  To give constant and updated information on the status of the school, it&apos;s infrastructure, and students
                             </td>
                             <td className='border border-white md:border-2 border-black p-4'>
                             Physical visits to the schools
