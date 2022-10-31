@@ -62,7 +62,7 @@ const Index = () => {
             img="../asst.sec.europe & asia.png"
             bio={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
             mail={"asst.sect.europe.asia@sjssaa.com"}
-            position="Asst. Sect Europe & asia"/>
+            position="Asst. Sect Europe and asia"/>
             <div className='h-[0.1px] md:h-[0.5px] bg-yellow-900 bg-opacity-20'/>
 
             <ExecutiveContainer
@@ -79,6 +79,58 @@ const Index = () => {
             bio={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
             mail={"treasurer@sjssaa.com"}
             position="Treasurer"/>
+            <div className='h-[0.1px] md:h-[0.5px] bg-yellow-900 bg-opacity-20'/>
+
+            <ExecutiveContainer
+            name={'Nwanze Victor'}
+            img="../social secretary.png"
+            bio={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
+            mail={"socialsecretary@sjssaa.com"}
+            position="Social Secretary"/>
+            <div className='h-[0.1px] md:h-[0.5px] bg-yellow-900 bg-opacity-20'/>
+
+            <ExecutiveContainer
+            name={'Henry Nkatta'}
+            img="../public relations officer.png"
+            bio={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
+            mail={"pro@sjssaa.com"}
+            position="Public Relations Officer"/>
+            
+            <div className='h-[0.1px] md:h-[0.5px] bg-yellow-900 bg-opacity-20'/>
+
+            <ExecutiveContainer
+            name={'Adebowale S. Onibanjo'}
+            img="../asst.financial secretary.png"
+            bio={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
+            mail={"asst.fin.sec@sjssaa.com"}
+            position="Asst. Fin. Secretary"/>
+            
+            <div className='h-[0.1px] md:h-[0.5px] bg-yellow-900 bg-opacity-20'/>
+
+            <ExecutiveContainer
+            name={'Fatiu Bello Olaitan'}
+            img="../assistant pro.png"
+            bio={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
+            mail={"asst.pro@sjssaa.com"}
+            position="Assistant PRO"/>
+            
+            <div className='h-[0.1px] md:h-[0.5px] bg-yellow-900 bg-opacity-20'/>
+
+            <ExecutiveContainer
+            name={'Elizabeth Inyang'}
+            img="../asst.social secretary.png"
+            bio={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
+            mail={"asst.social scretary@sjssaa.com"}
+            position="Asst. Social Secretary"/>
+            
+            <div className='h-[0.1px] md:h-[0.5px] bg-yellow-900 bg-opacity-20'/>
+
+            <ExecutiveContainer
+            name={'Aboyewa Okonedo'}
+            img="../assist.general secretary.png"
+            bio={"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
+            mail={"asst.gen.secretary@sjssaa.com"}
+            position="Asst. General Secretary"/>
             
         </div>
 
