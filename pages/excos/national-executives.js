@@ -65,6 +65,7 @@ const Index = () => {
             position="Asst. Sect Europe & asia"/>
             <div className='h-[0.1px] md:h-[0.5px] bg-yellow-900 bg-opacity-20'/>
 
+
             <ExecutiveContainer
             name={'Akeem Ajayi'}
             img="../financial secretary.png"
