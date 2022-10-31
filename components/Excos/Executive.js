@@ -7,7 +7,7 @@ import ExecutiveContainer from './ExecutiveContainer'
 const Executive = () => {
   return (
     <div className="relative bg-yellow-50 px-5 py-20">
-            <div className="md:text-left text-center py-10 font-primary">
+            <div className="md:text-left text-center py-20 font-primary">
                 <p className="flex-1 h-full text-center text-3xl leading-10 text-3xl md:text-5xl">National Executives</p>
             </div>
 

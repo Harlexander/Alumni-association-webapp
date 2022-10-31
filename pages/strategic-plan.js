@@ -51,7 +51,7 @@ const Index = () => {
               </div>
             </div>
             <div className='col-1'>
-              <img src='https://storage.googleapis.com/patronage-client-bluebeyond/2021/04/bcd0c3c3-values-infographic_main-image.png' className='w-full'/>
+              <img src='strategy.png' className='w-full'/>
             </div>
           </div>
 

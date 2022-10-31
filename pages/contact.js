@@ -15,26 +15,31 @@ const Index = () => {
           <div className='grid p-10 grid-cols-2  bg-white'>
             <div className='col-1 font-nunito space-y-3'>
               <p className='text-3xl font- font-montserrat'>Contact Information</p>
-              <p className='font-nunito font-bold'>Reach out to anyone on the International CHRIE staff with your questions. We are here to help.</p>
+              <p className='font-nunito font-bold'>Reach out to anyone on the SJSSAA contact email with your questions. We are here to help.</p>
 
               <p className='py-4'>If you have any queries or questions about St. Joseph Secondary School Alumni Association, please email us or call the secretary at +234 810 3562 7282. We would get back to you as soon as possible. Issues are only addressed to on weekdays only.</p>
 
              <div>
-              <p className='text-lg font-bold'>Israel Alika-John</p>
-              <p>National Secretary</p>
-              <a href='mailto:' className='text-blue-700 underline'>secretary@sjssaa.com</a>
+              <p className='text-lg font-bold'>Adeshina Adegboyega</p>
+              <p>President</p>
+              <a href='mailto:' className='text-blue-700 underline'>president@sjssaa.com</a>
              </div>
              
              <div>
               <p className='text-lg font-bold'>Israel Alika-John</p>
-              <p>Financial Secretary</p>
-              <a href='mailto:' className='text-blue-700 underline'>financialsecretary@sjssaa.com</a>
+              <p> General Secretary</p>
+              <a href='mailto:' className='text-blue-700 underline'>generalsecretary@sjssaa.com</a>
              </div>
             
              <div>
-              <p className='text-lg font-bold'>Israel Alika-John</p>
-              <p>Financial Secretary</p>
-              <a href='mailto:' className='text-blue-700 underline'>financialsecretary@sjssaa.com</a>
+              <p className='text-lg font-bold'>Henry Nkatta</p>
+              <p>Public Relations Officer</p>
+              <a href='mailto:' className='text-blue-700 underline'>pro@sjssaa.com</a>
+             </div>
+             <div>
+              <p className='text-lg font-bold'>Dr. Godwin-Charles Ogbeide</p>
+              <p>Web Master</p>
+              <a href='mailto:' className='text-blue-700 underline'>webmaster@sjssaa.com</a>
              </div>
             </div>
             <div className='col-1'>
