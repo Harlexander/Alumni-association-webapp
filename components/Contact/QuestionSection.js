@@ -9,6 +9,7 @@ const QuestionSection = () => {
         
             <p className='font-montserrat w-1/2 mx-auto'>If you have any questions or suggestions kindly click the button bellow and contact the administrator</p>
             <SolidButton
+            href='/contact'
             title={'Contact Us'}
             additionalClass="px-8 py-3 shadow-lg text-black text-2xl font-primary"/>                
             </Fade>

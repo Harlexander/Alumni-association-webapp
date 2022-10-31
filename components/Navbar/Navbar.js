@@ -30,14 +30,15 @@ const IndexNavbar = () => {
         },
         {
             title : "EVENTS",
-            sublinks : [{ 
-                title : "2022 Annual General Conference",
-                link : "/"
-            },
-            {
-                title : "Upcoming Set Events",
-                link : "/"
-            }]
+            link : "#events"
+            // sublinks : [{ 
+            //     title : "2022 Annual General Conference",
+            //     link : "/"
+            // },
+            // {
+            //     title : "Upcoming Set Events",
+            //     link : "/"
+            // }]
         },
         {
             title : "EXCOS",
@@ -89,7 +90,7 @@ const IndexNavbar = () => {
     <Navbar.Collapse>
         {
             routes.map((item, index) => {
-            if(item.title === "EXCOS" || item.title === "EVENTS" || item.title === "ABOUT US"){
+            if(item.title === "EXCOS" || item.title === "ABOUT US"){
                     return(
                         <NavDropdown 
                         key={index}

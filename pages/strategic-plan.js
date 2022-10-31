@@ -14,6 +14,11 @@ const Index = () => {
 
           <div className='md:grid mb-10 grid-cols-2'>
             <div className='col-1'>
+              <div className='space-y-5 pb-5'>
+                <p className='font-nunito'><span className='block font-montserrat text-xl md:text-3xl pb-4'>Mission</span> The mission statement of SJSSAA is to advance SJSS and its alumni in the pursuit of excellence in education, goodwill in the community, and well-being of its members.</p>     
+
+                <p className='font-nunito'><span className='block font-montserrat text-xl md:text-3xl pb-4'>Vision:</span> The vision statement of SJSSAA is to support, connect, and celebrate SJSS and its alumni.</p>
+              </div>
               <p className='font-montserrat text-xl md:text-3xl'>Core Values</p>
               <ul className='font-nunito py-5 space-y-1 pl-6'>
                   <p>

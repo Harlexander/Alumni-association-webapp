@@ -13,24 +13,24 @@ const GallerySection = () => {
         <div className='md:grid grid-cols-3 gap-2 md:px-14 px-5'>
             <div className='col-1 md:pt-20'>
                 <ImageContainer
-                src={"gallery.jpg"}
-                caption={"2018 Reunion"}
+                src={"gallery1.jpeg"}
+                caption={"The presentation of talking drums"}
                 />
             </div>
             <div className='col-1'>
                 <ImageContainer
-                src={"gallery-2.jpg"}
-                caption={"2018 Reunion"}
+                src={"gallery2.jpeg"}
+                caption={"30th March 2022"}
                 />
                 <ImageContainer
-                src={"gallery-3.jpg"}
-                caption={"2018 Reunion"}
+                src={"gallery3.jpeg"}
+                caption={""}
                 />
             </div>
             <div className='col-1 md:pt-28'>
                 <ImageContainer
-                src={"gallery-1.jpg"}
-                caption={"2018 Reunion"}
+                src={"gallery4.jpeg"}
+                caption={""}
                 />
             </div>
         </div>
