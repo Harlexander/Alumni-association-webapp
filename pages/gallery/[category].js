@@ -74,8 +74,9 @@ const Index = () => {
         <div className='md:py-20 md:px-28 px-5 py-8'>
             <div className='flex flex-wrap gap-1 '>
                 {
-                state &&  state.images.map((image) => (
+                state &&  state.images.map((image, index) => (
                         <img
+                        key={index}
                         className='max-h-64 flex-1'
                         style={{objectFit : "cover"}}
                         src={image.image}
