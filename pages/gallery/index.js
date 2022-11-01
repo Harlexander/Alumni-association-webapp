@@ -30,7 +30,7 @@ const CategoryCard = () => {
         <div class="p-6">
           <h5 class="text-gray-900 text-xl font-medium mb-2 font-primary">Presentation of Talking Drums</h5>
           <p class="text-gray-700 text-base mb-4 font-nunito">
-          The presentation of talking drums,  Sekere and Agogo was done today 30th March 2022.  Many thanks to Mr. Anthony Ashikodi
+          The presentation of talking drums,  Sekere and Agogo was done on the 30th March 2022.  Many thanks to Mr. Anthony Ashikodi
           </p>
           <SolidButton
           title={"View Images"}
