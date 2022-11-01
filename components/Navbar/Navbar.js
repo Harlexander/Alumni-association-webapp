@@ -55,6 +55,10 @@ const IndexNavbar = () => {
                 title : "Set Representatives",
                 link : "/excos/set-representatives"
             },
+            {
+                title : "Web Master",
+                link : "/excos/web-master"
+            },
         ]
         },
         {

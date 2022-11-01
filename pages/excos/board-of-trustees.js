@@ -31,19 +31,19 @@ const Index = () => {
       mail : ""
     },
     {
-      img : "",
+      img : "../martins.png",
       name : "Mr. Adewale Martins",
       position : "Member",
       mail : ""
     },
     {
-      img : "",
+      img : "../brayon.png",
       name : "Mr. Brayon Emeruwa",
       position : "Member",
       mail : ""
     },
     {
-      img : "",
+      img : "../shosanya.png",
       name : "Mr. Olayiwole Shosanya",
       position : "Member",
       mail : ""
@@ -57,7 +57,7 @@ const Index = () => {
          
 
          <div className='w-full md:px-32 py-20'>
-          <div className='md:flex space-y-5 md:pace-y-0 flex-wrap md:gap-10 justify-between'>
+          <div className='md:flex space-y-5 md:space-y-0 flex-wrap md:gap-10 justify-between'>
             {
               members.map(({mail, position, name, img}, index) => (
                 <TrusteeContainer
@@ -79,7 +79,7 @@ export default Index
 
 const TrusteeContainer = ({mail, img, name, position}) => {
   return(
-    <div>
+    <div className=''>
       <img src={img} className='border-4 border-yellow-300 mx-auto h-64 w-56' style={{objectFit : "cover"}}/>
       <div className='text-center py-5'>
         <p className='capitalize font-montserrat text-2xl'>{name}</p>
