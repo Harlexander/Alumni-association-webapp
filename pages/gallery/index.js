@@ -25,7 +25,7 @@ const CategoryCard = () => {
     <div class="flex justify-center">
       <div class="rounded-lg shadow-lg bg-white max-w-sm">
         <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-          <img class="rounded-t-lg" src="gallery-1.jpg" alt=""/>
+          <img class="rounded-t-lg" src="gallery1.jpeg" alt=""/>
         </a>
         <div class="p-6">
           <h5 class="text-gray-900 text-xl font-medium mb-2 font-primary">Presentation of Talking Drums</h5>
