@@ -9,11 +9,10 @@ const Index = () => {
   return (
     <div className='bg-yellow-200 min-h-screen'>
         <IndexNavbar/>
-        <PageHeader
-          title={"Web Master"}/>
-         
-        <div className='px-28 py-20'>
-          <div className='grid grid-cols-3 gap-10'>
+        <PageHeader title={"Web Master"}/>
+
+        <div className='md:px-28 p-5 md:py-20'>
+          <div className='md:grid grid-cols-3 gap-10'>
             <div className='col-1'>
               <img src='../webmaster.jpeg' className='rounded-full '/>
             </div>

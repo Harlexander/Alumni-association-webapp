@@ -11,7 +11,7 @@ const Index = () => {
         <PageHeader
           title={"Gallery And Photo News"}/>
          
-        <div className='py-20 px-28'>
+        <div className='md:py-20 md:px-28 px-5 py-10'>
           <CategoryCard/>
         </div>
     </div>

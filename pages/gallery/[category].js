@@ -10,43 +10,43 @@ const gallery = [
             description : "The presentation of talking drums, Sekere and Agogo was done today 30th March 2022. Many thanks to Mr. Anthony Ashikodi",
             images : [
                 {
-                    image : "/../gallery-1.jpg",
+                    image : "/../gallery1.jpeg",
                     caption : ""
                 },
                 {
-                    image : "/../gallery-2.jpg",
+                    image : "/../gallery2.jpeg",
                     caption : ""
                 },
                 {
-                    image : "/../gallery-3.jpg",
+                    image : "/../gallery3.jpeg",
                     caption : ""
                 },
                 {
-                    image : "/../gallery-1.jpg",
+                    image : "/../gallery1.jpeg",
                     caption : ""
                 },
                 {
-                    image : "/../gallery-2.jpg",
+                    image : "/../gallery2.jpeg",
                     caption : ""
                 },
                 {
-                    image : "/../gallery-3.jpg",
+                    image : "/../gallery3.jpeg",
                     caption : ""
                 },
                 {
-                    image : "/../gallery-1.jpg",
+                    image : "/../gallery1.jpeg",
                     caption : ""
                 },
                 {
-                    image : "/../gallery-2.jpg",
+                    image : "/../gallery2.jpeg",
                     caption : ""
                 },
                 {
-                    image : "/../gallery-3.jpg",
+                    image : "/../gallery3.jpeg",
                     caption : ""
                 },
                 {
-                    image : "/../gallery-4.jpg",
+                    image : "/../gallery4.jpeg",
                     caption : ""
                 }
             ]
@@ -71,16 +71,17 @@ const Index = () => {
         <PageHeader
           title={categoryName}/>
          
-        <div className='py-20 px-28'>
-            <div className='flex flex-wrap'>
+        <div className='md:py-20 md:px-28 px-5 py-8'>
+            <div className='flex flex-wrap gap-1 '>
                 {
                 state &&  state.images.map((image) => (
-                        <img 
-                        className='flex-1'
+                        <img
+                        className='max-h-64 flex-1'
+                        style={{objectFit : "cover"}}
                         src={image.image}
                         />
                     ))
-                }                
+                }
             </div>
         </div>
     </div>
