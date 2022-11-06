@@ -38,8 +38,8 @@ const Index = () => {
              </div>
              <div>
               <p className='text-lg font-bold'>Dr. Godwin-Charles Ogbeide</p>
-              <p>Web Master</p>
-              <a href='mailto:' className='text-blue-700 underline'>webmaster@sjssaa.com</a>
+              <p>Director of Membership</p>
+              <a href='mailto:' className='text-blue-700 underline'>dir.of.membership@sjssaa.com</a>
              </div>
             </div>
             <div className='col-1'>

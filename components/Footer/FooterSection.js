@@ -11,6 +11,7 @@ const FooterSection = () => {
                     <img src='logo.png' className='h-24'/>
                     <img src='logo-1.png' className='h-24'/>
                 </div>
+                <p className='uppercase font-italic text-md text-white font-primary'>First or with the First</p>
                 <div className='md:w-3/4 py-4 text-gray-900'>
                     <p className='font-primary text-2xl text-black mb-4'>St. Joseph Secondary School Alumni Association</p>
                     <p className='font-montserrat'>The Alumni of  St. Joseph Secondary School  Surulere Lagos official website. We will be sharing updates and build network for members on this platform</p>

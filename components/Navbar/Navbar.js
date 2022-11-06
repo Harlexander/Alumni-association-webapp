@@ -56,10 +56,14 @@ const IndexNavbar = () => {
                 link : "/excos/set-representatives"
             },
             {
-                title : "Web Master",
+                title : "Director of Membership",
                 link : "/excos/web-master"
             },
         ]
+        },
+        {
+            title : "MEMBERS",
+            link  : "/members"
         },
         {
             title : "CONTACT",

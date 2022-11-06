@@ -20,7 +20,7 @@ const Index = () => {
               <p className='text-2xl font-montserrat'>Dr. Godwin-Charles Ogbeide</p>
               <div className='font-nunito flex gap-3 items-center py-2'>
                 <FontAwesomeIcon icon={faEnvelope} className="text-sm"/> 
-                <a href='mailto:webmaster.sjssaa.com' className='underline'>webmaster@sjssaa.com</a>
+                <a href='mailto:webmaster.sjssaa.com' className='underline'>dir.of.membership@sjssaa.com</a>
               </div>
               <p className='font-nunito py-10'>The web master is in-charge of the maintenance and development of this wesite, if any need, complain, suggestions arises kindly contact him via email and he would attend to you as soon as possible.</p>
             </div>

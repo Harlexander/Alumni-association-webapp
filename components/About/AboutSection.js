@@ -17,9 +17,11 @@ const AboutSection = () => {
         </p>
 
         <div className='flex justify-center gap-1 md:gap-5'>
-            <SolidButton
-            title={"Our Motto"}
-            additionalClass={"font-primary text-black md:text-2xl"}/>
+        <Link download="SJSSAA Constitution" href={"./constitution.pdf" }>
+            <button className={`bg-pry font-primary text-black md:text-2xl px-8 py-1 text-white`}>
+              Constitution
+            </button>
+        </Link>
             <SolidButton
             href='strategic-plan'
             title={"Strategic Plan"}
