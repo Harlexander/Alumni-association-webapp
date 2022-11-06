@@ -37,7 +37,7 @@ const Index = () => {
               <a href='mailto:' className='text-blue-700 underline'>pro@sjssaa.com</a>
              </div>
              <div>
-              <p className='text-lg font-bold'>Dr. Godwin-Charles Ogbeide</p>
+              <p className='text-lg font-bold'>Prof. Godwin-Charles Ogbeide</p>
               <p>Director of Membership</p>
               <a href='mailto:' className='text-blue-700 underline'>dom@sjssaa.com</a>
              </div>

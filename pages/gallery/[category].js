@@ -14,39 +14,39 @@ const gallery = [
                     caption : ""
                 },
                 {
-                    image : "/../gallery2.jpeg",
+                    image : "/../placeholder.jpeg",
                     caption : ""
                 },
                 {
-                    image : "/../gallery3.jpeg",
+                    image : "/../placeholder.jpeg",
                     caption : ""
                 },
                 {
-                    image : "/../gallery1.jpeg",
+                    image : "/../placeholder.jpeg",
                     caption : ""
                 },
                 {
-                    image : "/../gallery2.jpeg",
+                    image : "/../placeholder.jpeg",
                     caption : ""
                 },
                 {
-                    image : "/../gallery3.jpeg",
+                    image : "/../placeholder.jpeg",
                     caption : ""
                 },
                 {
-                    image : "/../gallery1.jpeg",
+                    image : "/../placeholder.jpeg",
                     caption : ""
                 },
                 {
-                    image : "/../gallery2.jpeg",
+                    image : "/../placeholder.jpeg",
                     caption : ""
                 },
                 {
-                    image : "/../gallery3.jpeg",
+                    image : "/../placeholder.jpeg",
                     caption : ""
                 },
                 {
-                    image : "/../gallery4.jpeg",
+                    image : "/../placeholder.jpeg",
                     caption : ""
                 }
             ]

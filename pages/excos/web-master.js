@@ -17,7 +17,7 @@ const Index = () => {
               <img src='../webmaster.jpeg' className='rounded-full '/>
             </div>
             <div className='col-span-2 flex-col flex justify-center'>
-              <p className='text-2xl font-montserrat'>Dr. Godwin-Charles Ogbeide</p>
+              <p className='text-2xl font-montserrat'>Prof. Godwin-Charles Ogbeide</p>
               <div className='font-nunito flex gap-3 items-center py-2'>
                 <FontAwesomeIcon icon={faEnvelope} className="text-sm"/> 
                 <a href='mailto:webmaster.sjssaa.com' className='underline'>dom@sjssaa.com</a>

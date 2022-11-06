@@ -2120,9 +2120,8 @@ const Index = () => {
     const filter = (e) => {
         const { value, name } = e.target;
         let data;
-        console.log(name)
         if(name == "set"){
-            data = membersData.filter(({set}) => set == value );
+            data = value !== "all" ? membersData.filter(({set}) => set == value ) : membersData;
         }else{
              data = membersData.filter(({firstname, lastname}) => (firstname+lastname).toLowerCase().includes(value.toLowerCase()) );
         }
@@ -2145,16 +2144,16 @@ const Index = () => {
                 placeholder="Search By Name" 
                 type={'text'}
                 onChange={filter}/>
-                <button 
+                <button
                 className="p-4 bg-pry text-[white]"
                 >Search</button>
             </div>
             <div className="text-center hidden md:block text-[white] space-x-4 font-nunito md:py-8">
                 <select onChange={filter} placeholder={'filter by set'} name="set" className="md:p-4 px-8 border-0 bg-pry">
                     <option className="text-[white]" disabled selected>Filter By Set</option>
-                    <option className="text-[white]">All Set</option>
+                    <option className="text-[white]" value={"all"}>All Set</option>
                     {
-                        set.map((set, index) => (
+                        set.reverse().map((set, index) => (
                             <option key={index} value={set} className="text-[white]">{set}</option>
                         ))
                     }
