@@ -9,7 +9,7 @@ const Index = () => {
   return (
     <div className='bg-yellow-200 min-h-screen'>
         <IndexNavbar/>
-        <PageHeader title={"Web Master"}/>
+        <PageHeader title={"Directorn of Membership"}/>
 
         <div className='md:px-28 p-5 md:py-20'>
           <div className='md:grid grid-cols-3 gap-10'>
@@ -20,9 +20,9 @@ const Index = () => {
               <p className='text-2xl font-montserrat'>Dr. Godwin-Charles Ogbeide</p>
               <div className='font-nunito flex gap-3 items-center py-2'>
                 <FontAwesomeIcon icon={faEnvelope} className="text-sm"/> 
-                <a href='mailto:webmaster.sjssaa.com' className='underline'>dir.of.membership@sjssaa.com</a>
+                <a href='mailto:webmaster.sjssaa.com' className='underline'>dom@sjssaa.com</a>
               </div>
-              <p className='font-nunito py-10'>The web master is in-charge of the maintenance and development of this wesite, if any need, complain, suggestions arises kindly contact him via email and he would attend to you as soon as possible.</p>
+              <p className='font-nunito py-10'>Director of Membership: Managing membership data, promoting membership benefits and developments, and maintaining and updating this website. If you have any questions or suggestions, contact him via email, and he will attend to you as soon as possible.</p>
             </div>
           </div>
         </div>

@@ -22,10 +22,11 @@ const AboutSection = () => {
               Constitution
             </button>
         </Link>
-            <SolidButton
-            href='strategic-plan'
-            title={"Strategic Plan"}
-            additionalClass={"font-primary text-black md:text-2xl"}/>
+        <Link download="strategic-plan" href={"./strategic-plan.pdf" }>
+            <button className={`bg-pry font-primary text-black md:text-2xl px-8 py-1 text-white`}>
+              Strategic Plan
+            </button>
+        </Link>
         </div>        
       </Slide>
 
