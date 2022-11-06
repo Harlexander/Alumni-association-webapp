@@ -7,7 +7,7 @@ const SetRepsSection = () => {
        <p className='font-primary text-4xl text-center'>Set Representative</p>
     
         <SolidButton
-        href='set-representative'
+        href='/excos/set-representative'
         title={'Meet Your Set Representative'}
         additionalClass="px-8 py-3 text-black shadow-xl font-primary"/>
     </div>
