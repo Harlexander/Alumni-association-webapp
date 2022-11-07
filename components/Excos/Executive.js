@@ -12,27 +12,30 @@ const Executive = () => {
             </div>
 
         <div className='w-full md:px-32 space-y-12'>
-            <ExecutiveContainer
+        <ExecutiveContainer
             name={'Adeshina Adegboyega'}
-            img="president.png"
-            bio={"Adeshina Adegboyega Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
+            img="../president.png"
+            bio={"I am interested in rendering service for our great school first or with the first; I believe my experience coupled with my interpersonal abilities would make me a strong fit for this position."}
             mail={"President@sjssaa.com"}
             position="President"/>
-            <hr/>
+            
+            <div className='h-[0.1px] md:h-[0.5px] bg-yellow-900 bg-opacity-20'/>
+
             <ExecutiveContainer
             name={'Lanre Are'}
-            img="vp-nigeria.png"
-            bio={"Lanre Are  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
+            img="../vp-nigeria.png"
+            bio={"A team work aim to design, build and develop the association for the progress, fairness, justice and benefits of all SJSSA members."}
             mail={"vicepresident.niegria@sjssaa.com"}
             position="Vice President Nigeria"/>
-            <hr/>
+            
+            <div className='h-[0.1px] md:h-[0.5px] bg-yellow-900 bg-opacity-20'/>
+
             <ExecutiveContainer
             name={'Jacob Babatunde Ajayi'}
-            img="vp.png"
-            bio={"Jocob Ajayi Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"}
+            img="../vp.png"
+            bio={"I am an outstanding team player and possess good communication skills. I am hardworking, very well organized, and self-confident."}
             mail={"vicepresident.europe@sjssaa.com"}
             position="Vice President Europe and Asia"/>
-            
         </div>
 
         <div className='flex justify-center py-10'>

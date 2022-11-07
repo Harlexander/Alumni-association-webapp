@@ -5,14 +5,14 @@ import Link from 'next/link'
 
 const setReps = [
   {
-    set : '1987',
+    set : '1986',
     reps : [
       {
         pos : "chairman",
         name : "Dr Akinleye Akinlade"
       },
       {
-        pos : "Vice Chairma, Nigeria",
+        pos : "Vice Chairman, Nigeria",
         name : "Kolawole Banire"
       },
       {
@@ -44,8 +44,99 @@ const setReps = [
         name : "Victor Nwanze"
       }
     ]
-  }
+  },
+  {
+    set : '1987',
+    reps : [
+      {
+        pos : "chairman",
+        name : "Tony Agbugba"
+      },
+      {
+        pos : "Vice Chairman1",
+        name : "Andrew Venn"
+      },
+      {
+        pos : "Vice Chairman2",
+        name : "Alika Isreal John"
+      },
+      {
+        pos : "Secretary",
+        name : "Akeem Ajayi"
+      },
+      {
+        pos : "Assistant Secretary",
+        name : "Felix Emueze"
+      },
+      {
+        pos : "Treasurer",
+        name : "KAduragbemi Olurunseun"
+      },
+      {
+        pos : "Social Secretary",
+        name : "Seye Ajayi"
+      },
+    ]
+  },
+  {
+    set : '1990',
+    reps : [
+      {
+        pos : "chairman",
+        name : "Kelechukwu Onuobia"
+      },
+      {
+        pos : "Vice Chairman, Nigeria",
+        name : "Francis Amedrovi"
+      },
+      {
+        pos : "Vice Chairman, Dispora",
+        name : "Anthony Asekome"
+      },
+      {
+        pos : "Secretary",
+        name : "Sikiru Tiamiyu "
+      },
+      {
+        pos : "Assistant Secretary",
+        name : "Opeyemi Adefila"
+      },
+      {
+        pos : "Treasurer",
+        name : "Chidi Emmanuel"
+      },
+      {
+        pos : "Financial Secretary",
+        name : "Adetunji Adeniyi"
+      },
+      {
+        pos : "Social Secretary",
+        name : "Calis Albert"
+      },
+      {
+        pos : "Asst. Social Secretary",
+        name : "Tope Ogungbesan"
+      },
+      {
+        pos : "Publicity Secretary",
+        name : "Cyril Ibe"
+      },
+      {
+        pos : "Asst. Publicity Secretary",
+        name : "Josiah Anyanwu"
+      },
+      {
+        pos : "Legal Adviser 1",
+        name : "Barr. Bayo Akinlade"
+      },
+      {
+        pos : "Legal Adviser 2",
+        name : "Hakeem Lasisi"
+      },
+    ]
+  },
 ]
+
 const Index = () => {
   return (
     <div className='bg-yellow-200 min-h-screen'>
@@ -54,7 +145,7 @@ const Index = () => {
           title={"Set Representatives"}/>
         
         <div className='p-20'>
-        <div class="flex justify-center">
+        <div class="flex justify-center gap-5">
           {
             setReps.map(({set}, index) => (
               <div key={index} class="block p-6 rounded-lg shadow-lg bg-white max-w-sm text-center">
