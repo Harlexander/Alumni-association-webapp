@@ -21,7 +21,7 @@ const IndexNavbar = () => {
             },
             {
                 title : "Strategic Plan",
-                link : "/strategic-plan"
+                link : "./strategic-plan.pdf"
             }]
         },
         {

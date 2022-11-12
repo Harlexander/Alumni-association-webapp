@@ -9,7 +9,7 @@ const Index = () => {
   return (
     <div className='bg-yellow-200 min-h-screen'>
         <IndexNavbar/>
-        <PageHeader title={"Directorn of Membership"}/>
+        <PageHeader title={"Director of Membership"}/>
 
         <div className='md:px-28 p-5 md:py-20'>
           <div className='md:grid grid-cols-3 gap-10'>
