@@ -19,18 +19,18 @@ const GallerySection = () => {
             </div>
             <div className='col-1'>
                 <ImageContainer
-                src={"placeholder.jpeg"}
-                caption={"30th March 2022"}
+                src={"1986donations (2).jpg"}
+                caption={"1986 set donations"}
                 />
                 <ImageContainer
-                src={"placeholder.jpeg"}
-                caption={""}
+                src={"principal (3).jpg"}
+                caption={"1986 Set Celebrating the first principal birthday"}
                 />
             </div>
             <div className='col-1 md:pt-28'>
                 <ImageContainer
-                src={"placeholder.jpeg"}
-                caption={""}
+                src={"sjss1986 (2).jpg"}
+                caption={"Socials and networking reception"}
                 />
             </div>
         </div>
