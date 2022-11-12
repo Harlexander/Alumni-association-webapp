@@ -30,7 +30,7 @@ const IndexNavbar = () => {
         },
         {
             title : "EVENTS",
-            link : "#events"
+            link : "/#events"
             // sublinks : [{ 
             //     title : "2022 Annual General Conference",
             //     link : "/"
@@ -80,12 +80,12 @@ const IndexNavbar = () => {
         <Navbar.Brand href="/">
             <img
             src="/logo.jfif"
-            className="mr-3 h-12 sm:h-13"
+            className="mr-3 h-16 sm:h-13"
             alt="Flowbite Logo"
             />
             <img
             src="/logo-1.jfif"
-            className="mr-3 h-12 sm:h-13"
+            className="mr-3 h-16 sm:h-13"
             alt="Flowbite Logo"
             />
     </Navbar.Brand>

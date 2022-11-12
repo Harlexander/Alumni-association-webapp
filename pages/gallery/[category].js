@@ -21,38 +21,10 @@ const gallery = [
                     image : "/../placeholder.jpeg",
                     caption : ""
                 },
-                {
-                    image : "/../placeholder.jpeg",
-                    caption : ""
-                },
-                {
-                    image : "/../placeholder.jpeg",
-                    caption : ""
-                },
-                {
-                    image : "/../placeholder.jpeg",
-                    caption : ""
-                },
-                {
-                    image : "/../placeholder.jpeg",
-                    caption : ""
-                },
-                {
-                    image : "/../placeholder.jpeg",
-                    caption : ""
-                },
-                {
-                    image : "/../placeholder.jpeg",
-                    caption : ""
-                },
-                {
-                    image : "/../placeholder.jpeg",
-                    caption : ""
-                }
             ]
         },
         {
-            category : "SJSS-1986-socials-and-networking-reception",
+            category : "SJSS-1986-set-socials-and-networking-reception",
             description : "SJSS 1986 Set June 2022 Socials and Networking reception. Thanks to Mr. Oladipo Otuyelu for hosting",
             images : [
                 {

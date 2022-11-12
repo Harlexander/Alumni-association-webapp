@@ -7,7 +7,7 @@ const ResponsibilityContainer = ({ src, title, content}) => {
 
         <p className='font-primary text-2xl'>{title}</p>
 
-        <p className='font-nunito'>{content}</p>
+        <p className='font-nunito'></p>
     </div>
   )
 }

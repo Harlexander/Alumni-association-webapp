@@ -8,7 +8,7 @@ const ResponsilbiltySection = () => {
         <Fade direction='up'>
           <p className="text-4xl font-primary">Our Responsibility</p>
         </Fade>
-          <div className='md:flex gap-14 px-5 space-y-10 md:space-y-0 md:px-36'>
+          <div className='grid md:grid-cols-4 gap-14 px-5 space-y-10 md:space-y-0 md:px-36'>
           <Fade direction='up'>
           <ResponsibilityContainer
           src={"apply.png"}

@@ -168,6 +168,47 @@ const setReps = [
        ]
     },
     {
+      set : "2004",
+      reps : [
+        {
+         "pos": "Chairman ",
+         "name": "Onyeche James"
+        },
+        {
+         "pos": "Vice Chairman Nigeria",
+         "name": "Mba Ekpuagha"
+        },
+        {
+         "pos": "Vice Chairman Europe\/Asia",
+         "name": "Ipadeola Adewale"
+        },
+        {
+         "pos": "Vice Chairman North\/South America",
+         "name": "Salami  Babatunde"
+        },
+        {
+         "pos": "Secretary",
+         "name": "Chibueze Paul Dike"
+        },
+        {
+         "pos": "Assistant Secretary",
+         "name": "Eleshin Lateef"
+        },
+        {
+         "pos": "Social Secretary",
+         "name": "Stephen Venn"
+        },
+        {
+         "pos": "Publicity Secretary",
+         "name": "Brian Bassey"
+        },
+        {
+         "pos": "Treasurer",
+         "name": "Victor Nwachukwu"
+        }
+       ]
+    },
+    {
       set : "2009",
       reps : [
         {
@@ -208,47 +249,6 @@ const setReps = [
         }
        ]
     },
-    {
-      set : "2004",
-      reps : [
-        {
-         "pos": "Chairman ",
-         "name": "Onyeche James"
-        },
-        {
-         "pos": "Vice Chairman Nigeria",
-         "name": "Mba Ekpuagha"
-        },
-        {
-         "pos": "Vice Chairman Europe\/Asia",
-         "name": "Ipadeola Adewale"
-        },
-        {
-         "pos": "Vice Chairman North\/South America",
-         "name": "Salami  Babatunde"
-        },
-        {
-         "pos": "Secretary",
-         "name": "Chibueze Paul Dike"
-        },
-        {
-         "pos": "Assistant Secretary",
-         "name": "Eleshin Lateef"
-        },
-        {
-         "pos": "Social Secretary",
-         "name": "Stephen Venn"
-        },
-        {
-         "pos": "Publicity Secretary",
-         "name": "Brian Bassey"
-        },
-        {
-         "pos": "Treasurer",
-         "name": "Victor Nwachukwu"
-        }
-       ]
-    }
   ]
 
 const Index = () => {
