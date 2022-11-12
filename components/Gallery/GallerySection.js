@@ -19,7 +19,7 @@ const GallerySection = () => {
             </div>
             <div className='col-1'>
                 <ImageContainer
-                src={"1986donations (2).jpg"}
+                src={"1986donations (4).jpg"}
                 caption={"1986 set donations"}
                 />
                 <ImageContainer
@@ -37,6 +37,7 @@ const GallerySection = () => {
 
         <SolidButton
         title={"View All"}
+        href={"/gallery"}
         additionalClass="font-primary text-black text-2xl px-10"/>
     </div>
   )

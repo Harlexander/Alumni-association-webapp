@@ -136,8 +136,119 @@ const setReps = [
           pos : "Legal Adviser 2",
           name : "Hakeem Lasisi"
         },
-      ]
+      ],
     },
+    {
+      set : "1992",
+      reps : [
+        {
+         "pos": "Chairman ",
+         "name": "Sunday Isola"
+        },
+        {
+         "pos": "Vice Chairman Nigeria",
+         "name": "Adenuga  Mike"
+        },
+        {
+         "pos": "Secretary",
+         "name": "Gbenga  Johnson"
+        },
+        {
+         "pos": "Financial Secretary",
+         "name": "Jolaosho Adewale"
+        },
+        {
+         "pos": "Social Secretary",
+         "name": "Olutade Olukunle"
+        },
+        {
+         "pos": "Treasurer",
+         "name": "Alhaji Aremu Lanre"
+        }
+       ]
+    },
+    {
+      set : "2009",
+      reps : [
+        {
+         "pos": "Chairman ",
+         "name": "Mr. Adekoya Kehinde"
+        },
+        {
+         "pos": "Vice Chairman Nigeria",
+         "name": "Ms. Elizabeth Iyang"
+        },
+        {
+         "pos": "Secretary",
+         "name": "Mr. Bello Fatiu"
+        },
+        {
+         "pos": "Financial Secretary",
+         "name": "EnweruzoEmmanuel"
+        },
+        {
+         "pos": "Social Secretary",
+         "name": "Mr. Adebiyi Sulaiman"
+        },
+        {
+         "pos": "Treasurer",
+         "name": "Mrs. AJeniya Zainab"
+        },
+        {
+         "pos": "Publicity Secretary 1 ",
+         "name": "Mrs. Bello Modina"
+        },
+        {
+         "pos": "Publicity Secretary 2 ",
+         "name": "Bailey Michael"
+        },
+        {
+         "pos": "Publicity Secretary 3",
+         "name": "Ms. Salako Lolade"
+        }
+       ]
+    },
+    {
+      set : "2004",
+      reps : [
+        {
+         "pos": "Chairman ",
+         "name": "Onyeche James"
+        },
+        {
+         "pos": "Vice Chairman Nigeria",
+         "name": "Mba Ekpuagha"
+        },
+        {
+         "pos": "Vice Chairman Europe\/Asia",
+         "name": "Ipadeola Adewale"
+        },
+        {
+         "pos": "Vice Chairman North\/South America",
+         "name": "Salami  Babatunde"
+        },
+        {
+         "pos": "Secretary",
+         "name": "Chibueze Paul Dike"
+        },
+        {
+         "pos": "Assistant Secretary",
+         "name": "Eleshin Lateef"
+        },
+        {
+         "pos": "Social Secretary",
+         "name": "Stephen Venn"
+        },
+        {
+         "pos": "Publicity Secretary",
+         "name": "Brian Bassey"
+        },
+        {
+         "pos": "Treasurer",
+         "name": "Victor Nwachukwu"
+        }
+       ]
+    }
   ]
 
 const Index = () => {
@@ -163,7 +274,7 @@ console.log(set)
                   state &&  state.reps.map(({pos, name}, index) => (
                         <div key={index} className="col-1 rounded-lg shadow-lg bg-white max-w-sm">
                             <a href="#!">
-                                <img className="rounded-t-lg" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" alt=""/>
+                                <img className="rounded-t-lg w-full" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png" alt=""/>
                             </a>
                             <div className="p-6">
                             <h5 className="font-primary text-xl mb-2">{name}</h5>
