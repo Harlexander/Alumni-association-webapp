@@ -26,7 +26,7 @@ const Index = () => {
             name={'Lanre Are'}
             img="../vp-nigeria.png"
             bio={"A team work aim to design, build and develop the association for the progress, fairness, justice and benefits of all SJSSA members."}
-            mail={"vicepresident.niegria@sjssaa.com"}
+            mail={"vicepresident.nigeria@sjssaa.com"}
             position="Vice President Nigeria"/>
             
             <div className='h-[0.1px] md:h-[0.5px] bg-yellow-900 bg-opacity-20'/>
