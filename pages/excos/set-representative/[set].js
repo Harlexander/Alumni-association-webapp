@@ -12,7 +12,7 @@ const setReps = [
       reps : [
         {
           pos : "chairman",
-          name : "Dr Akinleye Akinlade"
+          name : "Dr. Akinyele Akinlade"
         },
         {
           pos : "Vice Chairman, Nigeria",
