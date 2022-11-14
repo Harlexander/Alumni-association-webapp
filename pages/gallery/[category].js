@@ -11,31 +11,31 @@ const gallery = [
         description : "SJSS 1986 Set June 2022 Socials and Networking reception. Thanks to Mr. Oladipo Otuyelu for hosting",
         images : [
             {
-                image : "sjss1986 (1).jpg",
+                image : "/../sjss1986 (1).jpg",
                 caption : ""
             },
             {
-                image : "sjss1986 (2).jpg",
+                image : "/../sjss1986 (2).jpg",
                 caption : ""
             },
             {
-                image : "sjss1986 (3).jpg",
+                image : "/../sjss1986 (3).jpg",
                 caption : ""
             },
             {
-                image : "sjss1986 (4).jpg",
+                image : "/../sjss1986 (4).jpg",
                 caption : ""
             },
             {
-                image : "sjss1986 (5).jpg",
+                image : "/../sjss1986 (5).jpg",
                 caption : ""
             },
             {
-                image : "sjss1986 (6).jpg",
+                image : "/../sjss1986 (6).jpg",
                 caption : ""
             },
             {
-                image : "sjss1986 (7).jpg",
+                image : "/../sjss1986 (7).jpg",
                 caption : ""
             }
         ]
@@ -45,27 +45,27 @@ const gallery = [
         description : "1986 Set donation of a projector and computer to St. Joseph Junior Secondary School (November 2021)",
         images : [
             {
-                image : "1986donations (1).jpg",
+                image : "/../1986donations (1).jpg",
                 caption : ""
             },
             {
-                image : "1986donations (2).jpg",
+                image : "/../1986donations (2).jpg",
                 caption : ""
             },
             {
-                image : "1986donations (3).jpg",
+                image : "/../1986donations (3).jpg",
                 caption : ""
             },
             {
-                image : "1986donations (4).jpg",
+                image : "/../1986donations (4).jpg",
                 caption : ""
             },
             {
-                image : "1986donations (5).jpg",
+                image : "/../1986donations (5).jpg",
                 caption : ""
             },
             {
-                image : "1986donations (6).jpg",
+                image : "/../1986donations (6).jpg",
                 caption : ""
             }
         ]
@@ -75,19 +75,19 @@ const gallery = [
         description : "1986 Set celebrating the 2021 birthday of the first principal of St. Joseph Secondary School, Surulere Lagos",
         images : [
             {
-                image : "principal (1).jpg",
+                image : "/../principal (1).jpg",
                 caption : ""
             },
             {
-                image : "principal (2).jpg",
+                image : "/../principal (2).jpg",
                 caption : ""
             },
             {
-                image : "principal (3).jpg",
+                image : "/../principal (3).jpg",
                 caption : ""
             },
             {
-                image : "principal (4).jpg",
+                image : "/../principal (4).jpg",
                 caption : ""
             },
         ]
