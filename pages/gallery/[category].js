@@ -93,7 +93,7 @@ const gallery = [
         ]
     },
     {
-        category : "distribution-of-exercise-book-by-1995-set",
+        category : "distribution-of-exercise-book-by-1992-set",
         description : "Distribution of exercise book to both Junior and Senior schools by 92 Set last month",
         images : [
             {
