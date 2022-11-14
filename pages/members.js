@@ -28,6 +28,12 @@ const membersData = [
      "email": "greatmanaideloje@gmail.com "
     },
     {
+     "set": "1986",
+     "firstname": "Jacob",
+     "lastname": "Ajayi",
+     "email": "Judituns@yahoo.com"
+    },
+    {
      "set": 1986,
      "firstname": "Lateef ",
      "lastname": "Akinbode",
@@ -136,6 +142,11 @@ const membersData = [
      "email": "wunmmykuye@gmail.com"
     },
     {
+     "set": "1986",
+     "firstname": "Waheed",
+     "lastname": "Majolagbe"
+    },
+    {
      "set": 1986,
      "firstname": "Chiedu",
      "lastname": "Makolo",
@@ -169,19 +180,13 @@ const membersData = [
      "set": "1986",
      "firstname": "Godwin-Charles",
      "lastname": "Ogbeide",
-     "email": "gogbeide@pnw.edu"
+     "email": "Leadershipconsultant@yahoo.com"
     },
     {
      "set": 1986,
      "firstname": "Oladipupo",
      "lastname": "Otuyelu",
      "email": "dip_kad2013@yahoo.com"
-    },
-    {
-     "set": "1986",
-     "firstname": "Gbadeyan",
-     "lastname": "Raphael",
-     "email": "raphealgbadeyan80@gmail.com"
     },
     {
      "set": 1986,
@@ -269,12 +274,6 @@ const membersData = [
     },
     {
      "set": 1987,
-     "firstname": "Oluseye ",
-     "lastname": "Ajayi ",
-     "email": "ajayi.oluseye16@gmail.com "
-    },
-    {
-     "set": 1987,
      "firstname": "Hafeez",
      "lastname": "Ajibade",
      "email": "abhajib@yahoo.com"
@@ -317,12 +316,6 @@ const membersData = [
     },
     {
      "set": 1987,
-     "firstname": "Wasiu",
-     "lastname": "Ashiru",
-     "email": "ashiruwasiuayodele@gmail.com"
-    },
-    {
-     "set": 1987,
      "firstname": "Joseph",
      "lastname": "Chukwuka",
      "email": "chukwukaj1@gmail.com"
@@ -332,12 +325,6 @@ const membersData = [
      "firstname": "Akinwale ",
      "lastname": "Dairo",
      "email": "akinwaledairo2020@gmail.com"
-    },
-    {
-     "set": 1987,
-     "firstname": "James",
-     "lastname": "David",
-     "email": "jamesomoruuyi200@yahoo.com"
     },
     {
      "set": 1987,
@@ -542,12 +529,6 @@ const membersData = [
      "firstname": "Adeshola",
      "lastname": "Owofolaju",
      "email": "compendiumg@gmail.com"
-    },
-    {
-     "set": "1987",
-     "firstname": "Solomon",
-     "lastname": "Oyedeji",
-     "email": "soyedeji@yahoo.com"
     },
     {
      "set": 1987,
@@ -798,19 +779,19 @@ const membersData = [
     {
      "set": 1988,
      "firstname": "Amechi",
-     "lastname": "IHIWUNKAH-PIUS ",
+     "lastname": "Ihiwunkah-Pius",
      "email": "amechipius@yahoo.com "
     },
     {
      "set": 1988,
-     "firstname": "IFEANYI            KRISS",
-     "lastname": "IKEMEFUNA",
+     "firstname": "Ifeanyi            Kriss",
+     "lastname": "Ikemefuna",
      "email": "Isymeg2008@yahoo.com"
     },
     {
      "set": 1988,
      "firstname": "Christopher",
-     "lastname": "IMALA",
+     "lastname": "Imala",
      "email": "nwabezechristopher@gmail.com"
     },
     {
@@ -929,12 +910,6 @@ const membersData = [
     },
     {
      "set": 1988,
-     "firstname": "Solomon",
-     "lastname": "Oyedeji",
-     "email": "soyedeji@yahoo.com"
-    },
-    {
-     "set": 1988,
      "firstname": "Adewole",
      "lastname": "Oyeniyi",
      "email": "wole_oyeniyi@yahoo.com"
@@ -952,12 +927,6 @@ const membersData = [
      "email": "wallesfbn@yahoo.com"
     },
     {
-     "set": 1988,
-     "firstname": "Oladipo",
-     "lastname": "S",
-     "email": "imosanade@gmail.com"
-    },
-    {
      "set": "1988",
      "firstname": "Abidemi  Olanrewaju",
      "lastname": "Salami",
@@ -968,12 +937,6 @@ const membersData = [
      "firstname": "Dipo",
      "lastname": "Sanya",
      "email": "Imosanade@gmail.com"
-    },
-    {
-     "set": 1988,
-     "firstname": "Onakoya",
-     "lastname": "Seyi",
-     "email": "onakoya.seyi@yahoo.com"
     },
     {
      "set": 1988,
@@ -998,12 +961,6 @@ const membersData = [
      "firstname": "David",
      "lastname": "Uwagba",
      "email": "meercy007@gmail.com"
-    },
-    {
-     "set": 1989,
-     "firstname": "Basirat",
-     "lastname": "Amuda",
-     "email": "amudabasirat01@gmail.com"
     },
     {
      "set": 1989,
@@ -1240,12 +1197,6 @@ const membersData = [
      "email": "abitibabatola@gmail.com"
     },
     {
-     "set": "1993",
-     "firstname": "Paul ",
-     "lastname": "Abiti.",
-     "email": "abitibabatola@gmail.com  "
-    },
-    {
      "set": 1993,
      "firstname": "Evans",
      "lastname": "Abu",
@@ -1480,14 +1431,8 @@ const membersData = [
      "email": "femiuche@yahoo.com    "
     },
     {
-     "set": "1993",
-     "firstname": "Babajide ",
-     "lastname": "Phillips",
-     "email": " jidephillipd@gmail,  "
-    },
-    {
      "set": 1993,
-     "firstname": "Augustine Nabajide",
+     "firstname": "Augustine Nabajide (Babajide)",
      "lastname": "Phillips ",
      "email": "jidephillipd@gmail "
     },
@@ -1733,12 +1678,6 @@ const membersData = [
     },
     {
      "set": "2006",
-     "firstname": "Kehinde",
-     "lastname": "Odeyemi",
-     "email": "hopegeneration2015@gmail.com"
-    },
-    {
-     "set": "2006",
      "firstname": "Chibuike",
      "lastname": "Ogbuagu",
      "email": "chibuikeogbus@gmail.com"
@@ -1919,12 +1858,6 @@ const membersData = [
     },
     {
      "set": 2009,
-     "firstname": "Benedict ",
-     "lastname": "Enwerem",
-     "email": "enweremb87@gmail.com"
-    },
-    {
-     "set": 2009,
      "firstname": "Emmanuel",
      "lastname": "Enweruzo",
      "email": "iymmahnuel@gmail.com"
@@ -1984,7 +1917,7 @@ const membersData = [
      "email": "arikekhadijah@gmail.com"
     },
     {
-     "set": 2009,
+     "set": "2009 ",
      "firstname": "Wahab",
      "lastname": "Okeshade",
      "email": "wahabokesh@gmail.com"
@@ -2078,14 +2011,7 @@ const membersData = [
      "firstname": "Tajudeen ",
      "lastname": "Balogun",
      "email": "akinkunmibalogun88@gmail.com"
-    },
-    {
-     "set": "?",
-     "firstname": "Mariam",
-     "lastname": "Onifade",
-     "email": "molamide693@gmail.com"
-    },
-
+    }
    ]
 
 
