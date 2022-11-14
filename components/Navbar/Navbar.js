@@ -69,6 +69,10 @@ const IndexNavbar = () => {
             title : "CONTACT",
             link  : "/contact"
         },
+        {
+            title : "EMAIL",
+            link  : "https://premium262.web-hosting.com:2096/"
+        },
     ]
   return (
     <Navbar

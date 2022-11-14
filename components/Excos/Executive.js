@@ -34,7 +34,7 @@ const Executive = () => {
             name={'Jacob Babatunde Ajayi'}
             img="../vp.png"
             bio={"I am an outstanding team player and possess good communication skills. I am hardworking, very well organized, and self-confident."}
-            mail={"vicepresident.europe@sjssaa.com"}
+            mail={"vicepresident.europe.asia@sjssaa.com"}
             position="Vice President Europe and Asia"/>
         </div>
 

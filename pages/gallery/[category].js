@@ -5,111 +5,172 @@ import Image from 'next/image'
 import IndexNavbar from '../../components/Navbar/Navbar'
 
 const gallery = [
-        {
-            category : "presentation-of-talking-drums",
-            description : "The presentation of talking drums, Sekere and Agogo was done today 30th March 2022. Many thanks to Mr. Anthony Ashikodi",
-            images : [
-                {
-                    image : "/../gallery1.jpeg",
-                    caption : ""
-                },
-                {
-                    image : "/../placeholder.jpeg",
-                    caption : ""
-                },
-                {
-                    image : "/../placeholder.jpeg",
-                    caption : ""
-                },
-            ]
-        },
-        {
-            category : "SJSS-1986-set-socials-and-networking-reception",
-            description : "SJSS 1986 Set June 2022 Socials and Networking reception. Thanks to Mr. Oladipo Otuyelu for hosting",
-            images : [
-                {
-                    image : "/../sjss1986 (1).jpg",
-                    caption : ""
-                },
-                {
-                    image : "/../sjss1986 (2).jpg",
-                    caption : ""
-                },
-                {
-                    image : "/../sjss1986 (3).jpg",
-                    caption : ""
-                },
-                {
-                    image : "/../sjss1986 (4).jpg",
-                    caption : ""
-                },
-                {
-                    image : "/../sjss1986 (5).jpg",
-                    caption : ""
-                },
-                {
-                    image : "/../sjss1986 (6).jpg",
-                    caption : ""
-                },
-                {
-                    image : "/../sjss1986 (7).jpg",
-                    caption : ""
-                }
-            ]
-        },
-        {
-            category : "1986-set-donation",
-            description : "1986 Set donation of a projector and computer to St. Joseph Junior Secondary School (November 2021)",
-            images : [
-                {
-                    image : "/../1986donations (1).jpg",
-                    caption : ""
-                },
-                {
-                    image : "/../1986donations (2).jpg",
-                    caption : ""
-                },
-                {
-                    image : "/../1986donations (3).jpg",
-                    caption : ""
-                },
-                {
-                    image : "/../1986donations (4).jpg",
-                    caption : ""
-                },
-                {
-                    image : "/../1986donations (5).jpg",
-                    caption : ""
-                },
-                {
-                    image : "/../1986donations (6).jpg",
-                    caption : ""
-                }
-            ]
-        },
-        {
-            category : "celebrating-the-2021-birthday-of-the-first-principal",
-            description : "1986 Set celebrating the 2021 birthday of the first principal of St. Joseph Secondary School, Surulere Lagos",
-            images : [
-                {
-                    image : "/../principal (1).jpg",
-                    caption : ""
-                },
-                {
-                    image : "/../principal (2).jpg",
-                    caption : ""
-                },
-                {
-                    image : "/../principal (3).jpg",
-                    caption : ""
-                },
-                {
-                    image : "/../principal (4).jpg",
-                    caption : ""
-                },
-            ]
-        },
-    ]
+
+    {
+        category : "SJSS-1986-set-socials-and-networking-reception",
+        description : "SJSS 1986 Set June 2022 Socials and Networking reception. Thanks to Mr. Oladipo Otuyelu for hosting",
+        images : [
+            {
+                image : "sjss1986 (1).jpg",
+                caption : ""
+            },
+            {
+                image : "sjss1986 (2).jpg",
+                caption : ""
+            },
+            {
+                image : "sjss1986 (3).jpg",
+                caption : ""
+            },
+            {
+                image : "sjss1986 (4).jpg",
+                caption : ""
+            },
+            {
+                image : "sjss1986 (5).jpg",
+                caption : ""
+            },
+            {
+                image : "sjss1986 (6).jpg",
+                caption : ""
+            },
+            {
+                image : "sjss1986 (7).jpg",
+                caption : ""
+            }
+        ]
+    },
+    {
+        category : "1986-set-donation",
+        description : "1986 Set donation of a projector and computer to St. Joseph Junior Secondary School (November 2021)",
+        images : [
+            {
+                image : "1986donations (1).jpg",
+                caption : ""
+            },
+            {
+                image : "1986donations (2).jpg",
+                caption : ""
+            },
+            {
+                image : "1986donations (3).jpg",
+                caption : ""
+            },
+            {
+                image : "1986donations (4).jpg",
+                caption : ""
+            },
+            {
+                image : "1986donations (5).jpg",
+                caption : ""
+            },
+            {
+                image : "1986donations (6).jpg",
+                caption : ""
+            }
+        ]
+    },
+    {
+        category : "celebrating-the-2021-birthday-of-the-first-principal",
+        description : "1986 Set celebrating the 2021 birthday of the first principal of St. Joseph Secondary School, Surulere Lagos",
+        images : [
+            {
+                image : "principal (1).jpg",
+                caption : ""
+            },
+            {
+                image : "principal (2).jpg",
+                caption : ""
+            },
+            {
+                image : "principal (3).jpg",
+                caption : ""
+            },
+            {
+                image : "principal (4).jpg",
+                caption : ""
+            },
+        ]
+    },
+    {
+        category : "distribution-of-exercise-book-by-1995-set",
+        description : "Distribution of exercise book to both Junior and Senior schools by 92 Set last month",
+        images : [
+            {
+                image : "/../exercisebook.jpeg",
+                caption : ""
+            },
+            {
+                image : "/../exercisebook (2).jpeg",
+                caption : ""
+            }
+        ]
+    },
+    {
+        category : "chairs-for-library-and-generator-by-1995-set",
+        description : "Chairs for the library and generator capable of pumping water for the school. Donated by SJSS class of 1995",
+        images : [
+            {
+                image : "/../sjss1995.jpeg",
+                caption : ""
+            },
+            {
+                image : "/../sjss1995 (2).jpeg",
+                caption : ""
+            },
+            {
+                image : "/../sjss1995 (3).jpeg",
+                caption : ""
+            },
+        ]
+    },
+    {
+      category : "presentation-of-talking-drums",
+      description : "The presentation of talking drums, Sekere and Agogo was done today 30th March 2022. Many thanks to Mr. Anthony Ashikodi",
+      images : [
+          {
+              image : "/../gallery1.jpeg",
+              caption : ""
+          },
+          {
+              image : "/../placeholder.jpeg",
+              caption : ""
+          },
+          {
+              image : "/../placeholder.jpeg",
+              caption : ""
+          },
+          {
+              image : "/../placeholder.jpeg",
+              caption : ""
+          },
+          {
+              image : "/../placeholder.jpeg",
+              caption : ""
+          },
+          {
+              image : "/../placeholder.jpeg",
+              caption : ""
+          },
+          {
+              image : "/../placeholder.jpeg",
+              caption : ""
+          },
+          {
+              image : "/../placeholder.jpeg",
+              caption : ""
+          },
+          {
+              image : "/../placeholder.jpeg",
+              caption : ""
+          },
+          {
+              image : "/../placeholder.jpeg",
+              caption : ""
+          }
+      ]
+  },
+  ]
 
 const Index = () => {
     const [ state, setState ] = useState({images : []})

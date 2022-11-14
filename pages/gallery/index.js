@@ -93,6 +93,38 @@ const gallery = [
       ]
   },
   {
+      category : "distribution-of-exercise-book-by-1995-set",
+      description : "Distribution of exercise book to both Junior and Senior schools by 92 Set last month",
+      images : [
+          {
+              image : "exercisebook.jpeg",
+              caption : ""
+          },
+          {
+              image : "exercisebook (2).jpeg",
+              caption : ""
+          }
+      ]
+  },
+  {
+      category : "chairs-for-library-and-generator-by-1995-set",
+      description : "Chairs for the library and generator capable of pumping water for the school. Donated by SJSS class of 1995",
+      images : [
+          {
+              image : "sjss1995.jpeg",
+              caption : ""
+          },
+          {
+              image : "sjss1995 (2).jpeg",
+              caption : ""
+          },
+          {
+              image : "sjss1995 (3).jpeg",
+              caption : ""
+          },
+      ]
+  },
+  {
     category : "presentation-of-talking-drums",
     description : "The presentation of talking drums, Sekere and Agogo was done today 30th March 2022. Many thanks to Mr. Anthony Ashikodi",
     images : [

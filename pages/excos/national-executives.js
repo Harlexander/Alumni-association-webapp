@@ -61,7 +61,7 @@ const Index = () => {
             name={'Dr. Emmanuel Ehiwe'}
             img="../asst.sec.europe & asia.png"
             bio={"Passion to serve SJSSAA"}
-            mail={"asst.sect.europe.asia@sjssaa.com"}
+            mail={"asst.sec.europe.asia@sjssaa.com"}
             position="Asst. Sect Europe and asia"/>
             <div className='h-[0.1px] md:h-[0.5px] bg-yellow-900 bg-opacity-20'/>
 
@@ -121,7 +121,7 @@ const Index = () => {
             name={'Elizabeth Inyang'}
             img="../asst.social secretary.png"
             bio={"Passion to serve SJSSAA"}
-            mail={"asst.social scretary@sjssaa.com"}
+            mail={"asst.social.secretary@sjssaa.com"}
             position="Asst. Social Secretary"/>
             
             <div className='h-[0.1px] md:h-[0.5px] bg-yellow-900 bg-opacity-20'/>
