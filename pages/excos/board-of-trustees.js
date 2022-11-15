@@ -38,13 +38,13 @@ const Index = () => {
     },
     {
       img : "../brayon.png",
-      name : "Mr. Brayon Emeruwa",
+      name : "Mr. Brayon Emeluwa",
       position : "Member",
       mail : ""
     },
     {
       img : "../shosanya.png",
-      name : "Mr. Olayiwole Shosanya",
+      name : "Mr. Olayiwola Shosanya",
       position : "Member",
       mail : ""
     },

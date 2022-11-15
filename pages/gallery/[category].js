@@ -125,6 +125,78 @@ const gallery = [
         ]
     },
     {
+        category : "rural-mental-health-advocacy-2004-set",
+        description : "Onyeche James 2004 Set. 2019 Rural mental health advocacy and motivational speech at St. Joseph Secondary School Suru Lere.",
+        images : [
+            {
+                image : "/../mentalhealth (1).jpeg",
+                caption : ""
+            },
+            {
+                image : "/../mentalhealth (2).jpeg",
+                caption : ""
+            },
+            {
+                image : "/../mentalhealth (3).jpeg",
+                caption : ""
+            },
+        ]
+    },
+    {
+        category : "donation-of-exercise-book-by-1987-set",
+        description : "June 2021, Mr. Tony Agbugba (right) and Mr. Akeem Ajayi (extreme left) Pose with the principal and some St. Joseph Junior Secondary School, Suru Lere,  after donating some exercise books by the 1987 Set.",
+        images : [
+            {
+                image : "/../87set (1).jpeg",
+                caption : ""
+            },
+            {
+                image : "/../87set (2).jpeg",
+                caption : ""
+            },
+            {
+                image : "/../87set (3).jpeg",
+                caption : ""
+            },
+        ]
+    },
+    {
+        category : "august-2021-maiden-reunion",
+        description : "August 2021, some members of the 1987 Set pose with our pioneer principal, Mrs. Olagbemi, during their maiden reunion.",
+        images : [
+            {
+                image : "/../pioneer (1).jpeg",
+                caption : ""
+            },
+            {
+                image : "/../pioneer (2).jpeg",
+                caption : ""
+            },
+            {
+                image : "/../pioneer (3).jpeg",
+                caption : ""
+            },
+            {
+                image : "/../pioneer (4).jpeg",
+                caption : ""
+            },
+            {
+                image : "/../pioneer (5).jpeg",
+                caption : ""
+            }
+        ]
+    },
+    {
+        category : "covid-19-hand-wash-facility",
+        description : "COVID-19 hand wash facility built and donated to St. Joseph Secondary School, Suru Lere, by the 1987 Set",
+        images : [
+            {
+                image : "/../handwash (1).jpeg",
+                caption : ""
+            }
+        ]
+    },
+    {
       category : "presentation-of-talking-drums",
       description : "The presentation of talking drums, Sekere and Agogo was done today 30th March 2022. Many thanks to Mr. Anthony Ashikodi",
       images : [
@@ -196,7 +268,7 @@ const Index = () => {
                 state &&  state.images.map((image, index) => (
                         <img
                         key={index}
-                        className='col-1 w-full md:max-h-64'
+                        className='col-1 w-full md:max-h-[24rem]'
                         style={{objectFit : "cover"}}
                         src={image.image}
                         />
