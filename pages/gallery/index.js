@@ -198,7 +198,7 @@ const gallery = [
   },
   {
     category : "presentation-of-talking-drums",
-    description : "The presentation of talking drums, Sekere and Agogo was done today 30th March 2022. Many thanks to Mr. Anthony Ashikodi",
+    description : "The presentation of talking drums, Sekere and Agogo was done today 30th March 2022. Many thanks to Mr. Anthony Ashikodi (1986 set)",
     images : [
         {
             image : "/../gallery1.jpeg",

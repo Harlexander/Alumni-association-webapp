@@ -66,7 +66,7 @@ const FooterSection = () => {
         </div>
     </div>
     <div className='text-center py-5 font-montserrat bg-yellow-500 bg-opacity-70'>
-        <p>Designed by Peachy &copy;</p>
+        <a href='https://www.peachy.com.ng'>Designed by Peachy &copy;</a>
     </div>
     </>
   )
